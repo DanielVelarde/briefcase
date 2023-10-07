@@ -1,0 +1,71 @@
+[2023-10-01T02:35:10.864-0400] {processor.py:157} INFO - Started process (PID=17608) to work on /home/erosennnin/airflow/dags/ETL_toll_data.py
+[2023-10-01T02:35:10.865-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/ETL_toll_data.py for tasks to queue
+[2023-10-01T02:35:10.865-0400] {logging_mixin.py:151} INFO - [2023-10-01T02:35:10.865-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/ETL_toll_data.py
+[2023-10-01T02:35:10.870-0400] {processor.py:839} INFO - DAG(s) dict_keys(['ETL_toll_data']) retrieved from /home/erosennnin/airflow/dags/ETL_toll_data.py
+[2023-10-01T02:35:10.929-0400] {logging_mixin.py:151} INFO - [2023-10-01T02:35:10.929-0400] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:ETL_toll_data' as access control is unset.
+[2023-10-01T02:35:10.929-0400] {logging_mixin.py:151} INFO - [2023-10-01T02:35:10.929-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T02:35:10.942-0400] {logging_mixin.py:151} INFO - [2023-10-01T02:35:10.942-0400] {dag.py:3696} INFO - Setting next_dagrun for ETL_toll_data to 2023-10-01T00:00:00+00:00, run_after=2023-10-02T00:00:00+00:00
+[2023-10-01T02:35:11.090-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/ETL_toll_data.py took 0.228 seconds
+[2023-10-01T02:36:43.370-0400] {processor.py:157} INFO - Started process (PID=18302) to work on /home/erosennnin/airflow/dags/ETL_toll_data.py
+[2023-10-01T02:36:43.395-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/ETL_toll_data.py for tasks to queue
+[2023-10-01T02:36:43.397-0400] {logging_mixin.py:151} INFO - [2023-10-01T02:36:43.396-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/ETL_toll_data.py
+[2023-10-01T02:36:43.408-0400] {processor.py:839} INFO - DAG(s) dict_keys(['ETL_toll_data']) retrieved from /home/erosennnin/airflow/dags/ETL_toll_data.py
+[2023-10-01T02:36:43.432-0400] {logging_mixin.py:151} INFO - [2023-10-01T02:36:43.432-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T02:36:43.460-0400] {logging_mixin.py:151} INFO - [2023-10-01T02:36:43.460-0400] {dag.py:3696} INFO - Setting next_dagrun for ETL_toll_data to 2023-10-01T00:00:00+00:00, run_after=2023-10-02T00:00:00+00:00
+[2023-10-01T02:36:43.660-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/ETL_toll_data.py took 0.294 seconds
+[2023-10-01T02:37:16.721-0400] {processor.py:157} INFO - Started process (PID=18348) to work on /home/erosennnin/airflow/dags/ETL_toll_data.py
+[2023-10-01T02:37:16.733-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/ETL_toll_data.py for tasks to queue
+[2023-10-01T02:37:16.734-0400] {logging_mixin.py:151} INFO - [2023-10-01T02:37:16.734-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/ETL_toll_data.py
+[2023-10-01T02:37:16.745-0400] {processor.py:839} INFO - DAG(s) dict_keys(['ETL_toll_data']) retrieved from /home/erosennnin/airflow/dags/ETL_toll_data.py
+[2023-10-01T02:37:16.771-0400] {logging_mixin.py:151} INFO - [2023-10-01T02:37:16.770-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T02:37:16.796-0400] {logging_mixin.py:151} INFO - [2023-10-01T02:37:16.795-0400] {dag.py:3696} INFO - Setting next_dagrun for ETL_toll_data to 2023-10-01T00:00:00+00:00, run_after=2023-10-02T00:00:00+00:00
+[2023-10-01T02:37:16.931-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/ETL_toll_data.py took 0.215 seconds
+[2023-10-01T02:37:48.764-0400] {processor.py:157} INFO - Started process (PID=18384) to work on /home/erosennnin/airflow/dags/ETL_toll_data.py
+[2023-10-01T02:37:48.784-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/ETL_toll_data.py for tasks to queue
+[2023-10-01T02:37:48.786-0400] {logging_mixin.py:151} INFO - [2023-10-01T02:37:48.785-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/ETL_toll_data.py
+[2023-10-01T02:37:48.798-0400] {processor.py:839} INFO - DAG(s) dict_keys(['ETL_toll_data']) retrieved from /home/erosennnin/airflow/dags/ETL_toll_data.py
+[2023-10-01T02:37:48.824-0400] {logging_mixin.py:151} INFO - [2023-10-01T02:37:48.824-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T02:37:48.850-0400] {logging_mixin.py:151} INFO - [2023-10-01T02:37:48.850-0400] {dag.py:3696} INFO - Setting next_dagrun for ETL_toll_data to 2023-10-01T00:00:00+00:00, run_after=2023-10-02T00:00:00+00:00
+[2023-10-01T02:37:48.972-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/ETL_toll_data.py took 0.212 seconds
+[2023-10-01T02:38:19.276-0400] {processor.py:157} INFO - Started process (PID=18426) to work on /home/erosennnin/airflow/dags/ETL_toll_data.py
+[2023-10-01T02:38:19.302-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/ETL_toll_data.py for tasks to queue
+[2023-10-01T02:38:19.303-0400] {logging_mixin.py:151} INFO - [2023-10-01T02:38:19.303-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/ETL_toll_data.py
+[2023-10-01T02:38:19.314-0400] {processor.py:839} INFO - DAG(s) dict_keys(['ETL_toll_data']) retrieved from /home/erosennnin/airflow/dags/ETL_toll_data.py
+[2023-10-01T02:38:19.339-0400] {logging_mixin.py:151} INFO - [2023-10-01T02:38:19.339-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T02:38:19.368-0400] {logging_mixin.py:151} INFO - [2023-10-01T02:38:19.368-0400] {dag.py:3696} INFO - Setting next_dagrun for ETL_toll_data to 2023-10-01T00:00:00+00:00, run_after=2023-10-02T00:00:00+00:00
+[2023-10-01T02:38:19.464-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/ETL_toll_data.py took 0.192 seconds
+[2023-10-01T02:39:17.610-0400] {processor.py:157} INFO - Started process (PID=18642) to work on /home/erosennnin/airflow/dags/ETL_toll_data.py
+[2023-10-01T02:39:17.647-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/ETL_toll_data.py for tasks to queue
+[2023-10-01T02:39:17.648-0400] {logging_mixin.py:151} INFO - [2023-10-01T02:39:17.647-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/ETL_toll_data.py
+[2023-10-01T02:39:17.659-0400] {processor.py:839} INFO - DAG(s) dict_keys(['ETL_toll_data']) retrieved from /home/erosennnin/airflow/dags/ETL_toll_data.py
+[2023-10-01T02:39:17.683-0400] {logging_mixin.py:151} INFO - [2023-10-01T02:39:17.683-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T02:39:17.697-0400] {logging_mixin.py:151} INFO - [2023-10-01T02:39:17.697-0400] {dag.py:3696} INFO - Setting next_dagrun for ETL_toll_data to 2023-10-01T00:00:00+00:00, run_after=2023-10-02T00:00:00+00:00
+[2023-10-01T02:39:17.791-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/ETL_toll_data.py took 0.183 seconds
+[2023-10-01T02:39:49.527-0400] {processor.py:157} INFO - Started process (PID=18698) to work on /home/erosennnin/airflow/dags/ETL_toll_data.py
+[2023-10-01T02:39:49.527-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/ETL_toll_data.py for tasks to queue
+[2023-10-01T02:39:49.528-0400] {logging_mixin.py:151} INFO - [2023-10-01T02:39:49.528-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/ETL_toll_data.py
+[2023-10-01T02:39:49.535-0400] {processor.py:839} INFO - DAG(s) dict_keys(['ETL_toll_data']) retrieved from /home/erosennnin/airflow/dags/ETL_toll_data.py
+[2023-10-01T02:39:49.545-0400] {logging_mixin.py:151} INFO - [2023-10-01T02:39:49.545-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T02:39:49.558-0400] {logging_mixin.py:151} INFO - [2023-10-01T02:39:49.558-0400] {dag.py:3696} INFO - Setting next_dagrun for ETL_toll_data to 2023-10-01T00:00:00+00:00, run_after=2023-10-02T00:00:00+00:00
+[2023-10-01T02:39:49.641-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/ETL_toll_data.py took 0.118 seconds
+[2023-10-01T02:40:21.735-0400] {processor.py:157} INFO - Started process (PID=18755) to work on /home/erosennnin/airflow/dags/ETL_toll_data.py
+[2023-10-01T02:40:21.759-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/ETL_toll_data.py for tasks to queue
+[2023-10-01T02:40:21.760-0400] {logging_mixin.py:151} INFO - [2023-10-01T02:40:21.760-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/ETL_toll_data.py
+[2023-10-01T02:40:21.771-0400] {processor.py:839} INFO - DAG(s) dict_keys(['ETL_toll_data']) retrieved from /home/erosennnin/airflow/dags/ETL_toll_data.py
+[2023-10-01T02:40:21.796-0400] {logging_mixin.py:151} INFO - [2023-10-01T02:40:21.795-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T02:40:21.824-0400] {logging_mixin.py:151} INFO - [2023-10-01T02:40:21.824-0400] {dag.py:3696} INFO - Setting next_dagrun for ETL_toll_data to 2023-10-01T00:00:00+00:00, run_after=2023-10-02T00:00:00+00:00
+[2023-10-01T02:40:21.949-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/ETL_toll_data.py took 0.219 seconds
+[2023-10-01T02:41:21.028-0400] {processor.py:157} INFO - Started process (PID=18871) to work on /home/erosennnin/airflow/dags/ETL_toll_data.py
+[2023-10-01T02:41:21.046-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/ETL_toll_data.py for tasks to queue
+[2023-10-01T02:41:21.047-0400] {logging_mixin.py:151} INFO - [2023-10-01T02:41:21.047-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/ETL_toll_data.py
+[2023-10-01T02:41:21.058-0400] {processor.py:839} INFO - DAG(s) dict_keys(['ETL_toll_data']) retrieved from /home/erosennnin/airflow/dags/ETL_toll_data.py
+[2023-10-01T02:41:21.080-0400] {logging_mixin.py:151} INFO - [2023-10-01T02:41:21.079-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T02:41:21.093-0400] {logging_mixin.py:151} INFO - [2023-10-01T02:41:21.092-0400] {dag.py:3696} INFO - Setting next_dagrun for ETL_toll_data to 2023-10-01T00:00:00+00:00, run_after=2023-10-02T00:00:00+00:00
+[2023-10-01T02:41:21.241-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/ETL_toll_data.py took 0.217 seconds
+[2023-10-01T12:37:52.013-0400] {processor.py:157} INFO - Started process (PID=19256) to work on /home/erosennnin/airflow/dags/ETL_toll_data.py
+[2023-10-01T12:37:52.071-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/ETL_toll_data.py for tasks to queue
+[2023-10-01T12:37:52.072-0400] {logging_mixin.py:151} INFO - [2023-10-01T12:37:52.072-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/ETL_toll_data.py
+[2023-10-01T12:37:52.081-0400] {processor.py:839} INFO - DAG(s) dict_keys(['ETL_toll_data']) retrieved from /home/erosennnin/airflow/dags/ETL_toll_data.py
+[2023-10-01T12:37:52.101-0400] {logging_mixin.py:151} INFO - [2023-10-01T12:37:52.101-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-10-01T12:37:52.125-0400] {logging_mixin.py:151} INFO - [2023-10-01T12:37:52.124-0400] {dag.py:3696} INFO - Setting next_dagrun for ETL_toll_data to 2023-10-01T00:00:00+00:00, run_after=2023-10-02T00:00:00+00:00
+[2023-10-01T12:37:52.436-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/ETL_toll_data.py took 0.427 seconds

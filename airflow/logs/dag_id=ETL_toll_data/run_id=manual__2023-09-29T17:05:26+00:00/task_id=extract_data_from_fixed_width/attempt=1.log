@@ -1,0 +1,16 @@
+[2023-09-29T13:09:05.242-0400] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ETL_toll_data.extract_data_from_fixed_width manual__2023-09-29T17:05:26+00:00 [queued]>
+[2023-09-29T13:09:05.247-0400] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ETL_toll_data.extract_data_from_fixed_width manual__2023-09-29T17:05:26+00:00 [queued]>
+[2023-09-29T13:09:05.247-0400] {taskinstance.py:1359} INFO - Starting attempt 1 of 2
+[2023-09-29T13:09:05.390-0400] {taskinstance.py:1380} INFO - Executing <Task(BashOperator): extract_data_from_fixed_width> on 2023-09-29 17:05:26+00:00
+[2023-09-29T13:09:05.396-0400] {standard_task_runner.py:57} INFO - Started process 140010 to run task
+[2023-09-29T13:09:05.399-0400] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'ETL_toll_data', 'extract_data_from_fixed_width', 'manual__2023-09-29T17:05:26+00:00', '--job-id', '52', '--raw', '--subdir', 'DAGS_FOLDER/ETL_toll_data.py', '--cfg-path', '/tmp/tmp9562_q5g']
+[2023-09-29T13:09:05.401-0400] {standard_task_runner.py:85} INFO - Job 52: Subtask extract_data_from_fixed_width
+[2023-09-29T13:09:05.504-0400] {task_command.py:415} INFO - Running <TaskInstance: ETL_toll_data.extract_data_from_fixed_width manual__2023-09-29T17:05:26+00:00 [running]> on host erosennnin-TUF-Gaming-FX505DU-FX505DU
+[2023-09-29T13:09:05.732-0400] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='daniel.velarde.kubber@gmail.com' AIRFLOW_CTX_DAG_OWNER='Daniel' AIRFLOW_CTX_DAG_ID='ETL_toll_data' AIRFLOW_CTX_TASK_ID='extract_data_from_fixed_width' AIRFLOW_CTX_EXECUTION_DATE='2023-09-29T17:05:26+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-09-29T17:05:26+00:00'
+[2023-09-29T13:09:05.734-0400] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2023-09-29T13:09:05.735-0400] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'cut -c1-4,12-13,16 /home/erosennnin/Programing/Apache_Airflow/finalassignment/tolldata/payment-data.txt > /home/erosennnin/Programing/Apache_Airflow/finalassignment/tolldata/fixed_width_data.csv']
+[2023-09-29T13:09:05.747-0400] {subprocess.py:86} INFO - Output:
+[2023-09-29T13:09:05.752-0400] {subprocess.py:97} INFO - Command exited with return code 0
+[2023-09-29T13:09:05.898-0400] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=ETL_toll_data, task_id=extract_data_from_fixed_width, execution_date=20230929T170526, start_date=20230929T170905, end_date=20230929T170905
+[2023-09-29T13:09:06.132-0400] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-09-29T13:09:06.164-0400] {taskinstance.py:2776} INFO - 1 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,29 @@
+[2023-09-27T20:29:23.660-0400] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ETL_Server_Access_Log_Processing.download manual__2023-09-28T00:29:16.809110+00:00 [queued]>
+[2023-09-27T20:29:23.665-0400] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ETL_Server_Access_Log_Processing.download manual__2023-09-28T00:29:16.809110+00:00 [queued]>
+[2023-09-27T20:29:23.665-0400] {taskinstance.py:1359} INFO - Starting attempt 1 of 2
+[2023-09-27T20:29:23.787-0400] {taskinstance.py:1380} INFO - Executing <Task(BashOperator): download> on 2023-09-28 00:29:16.809110+00:00
+[2023-09-27T20:29:23.792-0400] {standard_task_runner.py:57} INFO - Started process 91437 to run task
+[2023-09-27T20:29:23.795-0400] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'ETL_Server_Access_Log_Processing', 'download', 'manual__2023-09-28T00:29:16.809110+00:00', '--job-id', '30', '--raw', '--subdir', 'DAGS_FOLDER/ETL_Server_Access_Log_Processing.py', '--cfg-path', '/tmp/tmp352svyre']
+[2023-09-27T20:29:23.797-0400] {standard_task_runner.py:85} INFO - Job 30: Subtask download
+[2023-09-27T20:29:23.919-0400] {task_command.py:415} INFO - Running <TaskInstance: ETL_Server_Access_Log_Processing.download manual__2023-09-28T00:29:16.809110+00:00 [running]> on host erosennnin-TUF-Gaming-FX505DU-FX505DU
+[2023-09-27T20:29:24.146-0400] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='ramesh@somemail.com' AIRFLOW_CTX_DAG_OWNER='Ramesh Sannareddy' AIRFLOW_CTX_DAG_ID='ETL_Server_Access_Log_Processing' AIRFLOW_CTX_TASK_ID='download' AIRFLOW_CTX_EXECUTION_DATE='2023-09-28T00:29:16.809110+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-09-28T00:29:16.809110+00:00'
+[2023-09-27T20:29:24.147-0400] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2023-09-27T20:29:24.147-0400] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'wget -O /home/erosennnin/Programing/Apache_Airflow/downloads/web-server-access-log.txt "https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-DB0250EN-SkillsNetwork/labs/Apache%20Airflow/Build%20a%20DAG%20using%20Airflow/web-server-access-log.txt" && ls /home/erosennnin/Programing/Apache_Airflow/downloads/']
+[2023-09-27T20:29:24.156-0400] {subprocess.py:86} INFO - Output:
+[2023-09-27T20:29:24.160-0400] {subprocess.py:93} INFO - --2023-09-27 20:29:24--  https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-DB0250EN-SkillsNetwork/labs/Apache%20Airflow/Build%20a%20DAG%20using%20Airflow/web-server-access-log.txt
+[2023-09-27T20:29:24.247-0400] {subprocess.py:93} INFO - Resolving cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud (cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud)... 169.45.118.108
+[2023-09-27T20:29:24.451-0400] {subprocess.py:93} INFO - Connecting to cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud (cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud)|169.45.118.108|:443... connected.
+[2023-09-27T20:29:25.373-0400] {subprocess.py:93} INFO - HTTP request sent, awaiting response... 200 OK
+[2023-09-27T20:29:25.373-0400] {subprocess.py:93} INFO - Length: 8351 (8,2K) [text/plain]
+[2023-09-27T20:29:25.373-0400] {subprocess.py:93} INFO - Saving to: ‘/home/erosennnin/Programing/Apache_Airflow/downloads/web-server-access-log.txt’
+[2023-09-27T20:29:25.373-0400] {subprocess.py:93} INFO - 
+[2023-09-27T20:29:25.373-0400] {subprocess.py:93} INFO -      0K ........                                              100%  158M=0s
+[2023-09-27T20:29:25.373-0400] {subprocess.py:93} INFO - 
+[2023-09-27T20:29:25.373-0400] {subprocess.py:93} INFO - 2023-09-27 20:29:25 (158 MB/s) - ‘/home/erosennnin/Programing/Apache_Airflow/downloads/web-server-access-log.txt’ saved [8351/8351]
+[2023-09-27T20:29:25.374-0400] {subprocess.py:93} INFO - 
+[2023-09-27T20:29:25.376-0400] {subprocess.py:93} INFO - capitalized.txt
+[2023-09-27T20:29:25.376-0400] {subprocess.py:93} INFO - web-server-access-log.txt
+[2023-09-27T20:29:25.376-0400] {subprocess.py:97} INFO - Command exited with return code 0
+[2023-09-27T20:29:25.513-0400] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=ETL_Server_Access_Log_Processing, task_id=download, execution_date=20230928T002916, start_date=20230928T002923, end_date=20230928T002925
+[2023-09-27T20:29:25.650-0400] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-09-27T20:29:25.665-0400] {taskinstance.py:2776} INFO - 1 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,1072 @@
+[2023-09-29T13:00:13.908-0400] {processor.py:157} INFO - Started process (PID=138862) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:00:13.909-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T13:00:13.910-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:00:13.909-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:00:13.927-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:00:13.999-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:00:13.999-0400] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:my-first-dag' as access control is unset.
+[2023-09-29T13:00:14.000-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:00:13.999-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T13:00:14.012-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:00:14.012-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T13:00:14.163-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.259 seconds
+[2023-09-29T13:01:15.759-0400] {processor.py:157} INFO - Started process (PID=138967) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:01:15.782-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T13:01:15.784-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:01:15.783-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:01:15.794-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:01:15.810-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:01:15.810-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T13:01:15.844-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:01:15.843-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T13:01:15.967-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.212 seconds
+[2023-09-29T13:02:12.867-0400] {processor.py:157} INFO - Started process (PID=139076) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:02:12.883-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T13:02:12.884-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:02:12.884-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:02:12.893-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:02:12.915-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:02:12.915-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T13:02:12.944-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:02:12.944-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T13:02:13.035-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.172 seconds
+[2023-09-29T13:03:06.619-0400] {processor.py:157} INFO - Started process (PID=139170) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:03:06.620-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T13:03:06.621-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:03:06.621-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:03:06.630-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:03:06.652-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:03:06.652-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T13:03:06.670-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:03:06.670-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T13:03:06.794-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.179 seconds
+[2023-09-29T13:04:04.136-0400] {processor.py:157} INFO - Started process (PID=139280) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:04:04.143-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T13:04:04.145-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:04:04.144-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:04:04.154-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:04:04.178-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:04:04.177-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T13:04:04.199-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:04:04.198-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T13:04:04.319-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.186 seconds
+[2023-09-29T13:05:03.351-0400] {processor.py:157} INFO - Started process (PID=139436) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:05:03.352-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T13:05:03.354-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:05:03.353-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:05:03.360-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:05:03.377-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:05:03.377-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T13:05:03.392-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:05:03.391-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T13:05:03.526-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.178 seconds
+[2023-09-29T13:05:35.245-0400] {processor.py:157} INFO - Started process (PID=139503) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:05:35.269-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T13:05:35.271-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:05:35.270-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:05:35.281-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:05:35.303-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:05:35.302-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T13:05:35.333-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:05:35.332-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T13:05:35.445-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.203 seconds
+[2023-09-29T13:06:28.823-0400] {processor.py:157} INFO - Started process (PID=139661) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:06:28.827-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T13:06:28.827-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:06:28.827-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:06:28.832-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:06:28.844-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:06:28.844-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T13:06:28.859-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:06:28.858-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T13:06:29.073-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.252 seconds
+[2023-09-29T13:07:36.355-0400] {processor.py:157} INFO - Started process (PID=139771) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:07:36.356-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T13:07:36.357-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:07:36.356-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:07:36.366-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:07:36.387-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:07:36.387-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T13:07:36.406-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:07:36.406-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T13:07:36.590-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.240 seconds
+[2023-09-29T13:08:10.088-0400] {processor.py:157} INFO - Started process (PID=139846) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:08:10.089-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T13:08:10.090-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:08:10.090-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:08:10.099-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:08:10.122-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:08:10.121-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T13:08:10.139-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:08:10.139-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T13:08:10.335-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.251 seconds
+[2023-09-29T13:09:24.437-0400] {processor.py:157} INFO - Started process (PID=140064) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:09:24.438-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T13:09:24.439-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:09:24.438-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:09:24.447-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:09:24.470-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:09:24.469-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T13:09:24.490-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:09:24.490-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T13:09:24.624-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.191 seconds
+[2023-09-29T13:10:12.615-0400] {processor.py:157} INFO - Started process (PID=140356) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:10:12.616-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T13:10:12.617-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:10:12.616-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:10:12.625-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:10:12.636-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:10:12.635-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T13:10:12.652-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:10:12.651-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T13:10:12.762-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.151 seconds
+[2023-09-29T13:10:44.851-0400] {processor.py:157} INFO - Started process (PID=140407) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:10:44.875-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T13:10:44.876-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:10:44.875-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:10:44.881-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:10:44.897-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:10:44.897-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T13:10:44.930-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:10:44.929-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T13:10:45.033-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.185 seconds
+[2023-09-29T13:11:17.064-0400] {processor.py:157} INFO - Started process (PID=140471) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:11:17.065-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T13:11:17.066-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:11:17.065-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:11:17.077-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:11:17.101-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:11:17.101-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T13:11:17.116-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:11:17.116-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T13:11:17.233-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.173 seconds
+[2023-09-29T13:12:13.504-0400] {processor.py:157} INFO - Started process (PID=140580) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:12:13.505-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T13:12:13.506-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:12:13.506-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:12:13.513-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:12:13.524-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:12:13.524-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T13:12:13.538-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:12:13.538-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T13:12:13.674-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.175 seconds
+[2023-09-29T13:13:17.820-0400] {processor.py:157} INFO - Started process (PID=140688) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:13:17.836-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T13:13:17.837-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:13:17.837-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:13:17.843-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:13:17.854-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:13:17.854-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T13:13:17.872-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:13:17.872-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T13:13:17.991-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.174 seconds
+[2023-09-29T13:13:52.949-0400] {processor.py:157} INFO - Started process (PID=140745) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:13:52.971-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T13:13:52.972-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:13:52.972-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:13:52.982-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:13:53.001-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:13:53.001-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T13:13:53.014-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:13:53.014-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T13:13:53.117-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.172 seconds
+[2023-09-29T13:14:25.843-0400] {processor.py:157} INFO - Started process (PID=140805) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:14:25.864-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T13:14:25.865-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:14:25.865-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:14:25.871-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:14:25.881-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:14:25.881-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T13:14:25.895-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:14:25.895-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T13:14:26.057-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.217 seconds
+[2023-09-29T13:15:22.275-0400] {processor.py:157} INFO - Started process (PID=140911) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:15:22.300-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T13:15:22.301-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:15:22.300-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:15:22.310-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:15:22.328-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:15:22.328-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T13:15:22.352-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:15:22.352-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T13:15:22.445-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.174 seconds
+[2023-09-29T13:16:14.102-0400] {processor.py:157} INFO - Started process (PID=141046) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:16:14.103-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T13:16:14.104-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:16:14.103-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:16:14.113-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:16:14.136-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:16:14.136-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T13:16:14.156-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:16:14.156-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T13:16:14.280-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.182 seconds
+[2023-09-29T13:17:11.058-0400] {processor.py:157} INFO - Started process (PID=141307) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:17:11.059-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T13:17:11.061-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:17:11.060-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:17:11.070-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:17:11.092-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:17:11.092-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T13:17:11.111-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:17:11.111-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T13:17:11.215-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.160 seconds
+[2023-09-29T13:17:43.160-0400] {processor.py:157} INFO - Started process (PID=141363) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:17:43.161-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T13:17:43.163-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:17:43.162-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:17:43.172-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:17:43.193-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:17:43.193-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T13:17:43.210-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:17:43.210-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T13:17:43.565-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.408 seconds
+[2023-09-29T13:18:49.605-0400] {processor.py:157} INFO - Started process (PID=141524) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:18:49.605-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T13:18:49.606-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:18:49.606-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:18:49.611-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:18:49.623-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:18:49.623-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T13:18:49.639-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:18:49.639-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T13:18:49.764-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.162 seconds
+[2023-09-29T13:19:24.478-0400] {processor.py:157} INFO - Started process (PID=141653) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:19:24.479-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T13:19:24.479-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:19:24.479-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:19:24.484-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:19:24.495-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:19:24.495-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T13:19:24.517-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:19:24.516-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T13:19:24.655-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.180 seconds
+[2023-09-29T13:20:20.716-0400] {processor.py:157} INFO - Started process (PID=141779) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:20:20.718-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T13:20:20.719-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:20:20.718-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:20:20.728-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:20:20.751-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:20:20.751-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T13:20:20.771-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:20:20.771-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T13:20:20.898-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.186 seconds
+[2023-09-29T13:21:14.826-0400] {processor.py:157} INFO - Started process (PID=141931) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:21:14.827-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T13:21:14.828-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:21:14.828-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:21:14.838-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:21:14.861-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:21:14.860-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T13:21:14.879-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:21:14.879-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T13:21:15.017-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.195 seconds
+[2023-09-29T13:27:41.809-0400] {processor.py:157} INFO - Started process (PID=3024) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:27:41.852-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T13:27:41.853-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:27:41.852-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:27:41.867-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:27:41.891-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:27:41.891-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T13:27:41.920-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:27:41.920-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T13:27:42.050-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.243 seconds
+[2023-09-29T13:28:53.484-0400] {processor.py:157} INFO - Started process (PID=3113) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:28:53.496-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T13:28:53.497-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:28:53.496-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:28:53.504-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:28:53.523-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:28:53.522-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T13:28:53.552-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:28:53.551-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T13:28:53.680-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.199 seconds
+[2023-09-29T13:29:26.015-0400] {processor.py:157} INFO - Started process (PID=3167) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:29:26.034-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T13:29:26.035-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:29:26.035-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:29:26.044-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:29:26.066-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:29:26.066-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T13:29:26.094-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:29:26.094-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T13:29:26.242-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.230 seconds
+[2023-09-29T13:29:58.506-0400] {processor.py:157} INFO - Started process (PID=3310) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:29:58.563-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T13:29:58.565-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:29:58.564-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:29:58.575-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:29:58.602-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:29:58.601-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T13:29:58.637-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:29:58.637-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T13:29:59.113-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.610 seconds
+[2023-09-29T13:30:34.883-0400] {processor.py:157} INFO - Started process (PID=3356) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:30:34.884-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T13:30:34.886-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:30:34.885-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:30:34.895-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:30:34.919-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:30:34.919-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T13:30:34.935-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:30:34.935-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T13:30:35.077-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.198 seconds
+[2023-09-29T13:31:30.071-0400] {processor.py:157} INFO - Started process (PID=3511) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:31:30.071-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T13:31:30.072-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:31:30.072-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:31:30.076-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:31:30.099-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:31:30.099-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T13:31:30.122-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:31:30.122-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T13:31:30.269-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.200 seconds
+[2023-09-29T13:32:35.999-0400] {processor.py:157} INFO - Started process (PID=3960) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:32:36.125-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T13:32:36.126-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:32:36.126-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:32:36.137-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:32:36.161-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:32:36.161-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T13:32:36.198-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:32:36.198-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T13:32:36.704-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.709 seconds
+[2023-09-29T13:33:20.294-0400] {processor.py:157} INFO - Started process (PID=4322) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:33:20.315-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T13:33:20.316-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:33:20.315-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:33:20.321-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:33:20.332-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:33:20.332-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T13:33:20.348-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:33:20.347-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T13:33:20.493-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.202 seconds
+[2023-09-29T13:33:58.106-0400] {processor.py:157} INFO - Started process (PID=4491) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:33:58.108-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T13:33:58.109-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:33:58.108-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:33:58.118-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:33:58.145-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:33:58.145-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T13:33:58.161-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:33:58.161-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T13:33:58.329-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.227 seconds
+[2023-09-29T13:34:29.981-0400] {processor.py:157} INFO - Started process (PID=4585) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:34:29.982-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T13:34:29.983-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:34:29.982-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:34:29.987-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:34:29.998-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:34:29.998-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T13:34:30.012-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:34:30.012-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T13:34:30.153-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.174 seconds
+[2023-09-29T13:35:02.484-0400] {processor.py:157} INFO - Started process (PID=4623) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:35:02.485-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T13:35:02.486-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:35:02.486-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:35:02.495-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:35:02.516-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:35:02.516-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T13:35:02.536-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:35:02.536-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T13:35:02.654-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.174 seconds
+[2023-09-29T13:36:00.464-0400] {processor.py:157} INFO - Started process (PID=5281) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:36:00.490-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T13:36:00.491-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:36:00.491-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:36:00.500-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:36:00.522-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:36:00.522-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T13:36:00.549-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:36:00.548-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T13:36:00.660-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.200 seconds
+[2023-09-29T13:36:57.926-0400] {processor.py:157} INFO - Started process (PID=5446) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:36:57.955-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T13:36:57.956-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:36:57.956-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:36:57.965-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:36:57.985-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:36:57.985-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T13:36:57.998-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:36:57.998-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T13:36:58.133-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.211 seconds
+[2023-09-29T13:37:53.578-0400] {processor.py:157} INFO - Started process (PID=5517) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:37:53.579-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T13:37:53.579-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:37:53.579-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:37:53.584-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:37:53.593-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:37:53.593-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T13:37:53.606-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:37:53.606-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T13:37:53.800-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.225 seconds
+[2023-09-29T13:38:48.840-0400] {processor.py:157} INFO - Started process (PID=5581) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:38:48.842-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T13:38:48.843-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:38:48.842-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:38:48.852-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:38:48.874-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:38:48.874-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T13:38:48.893-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:38:48.892-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T13:38:48.996-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.159 seconds
+[2023-09-29T13:39:46.127-0400] {processor.py:157} INFO - Started process (PID=5710) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:39:46.152-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T13:39:46.154-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:39:46.153-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:39:46.163-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:39:46.185-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:39:46.185-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T13:39:46.216-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:39:46.216-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T13:39:46.370-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.247 seconds
+[2023-09-29T13:40:40.090-0400] {processor.py:157} INFO - Started process (PID=5771) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:40:40.101-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T13:40:40.102-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:40:40.101-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:40:40.112-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:40:40.135-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:40:40.135-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T13:40:40.162-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:40:40.161-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T13:40:40.311-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.225 seconds
+[2023-09-29T13:41:36.655-0400] {processor.py:157} INFO - Started process (PID=6248) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:41:36.686-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T13:41:36.687-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:41:36.687-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:41:36.696-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:41:36.717-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:41:36.717-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T13:41:36.749-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:41:36.749-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T13:41:36.871-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.220 seconds
+[2023-09-29T13:42:32.749-0400] {processor.py:157} INFO - Started process (PID=6793) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:42:32.750-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T13:42:32.752-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:42:32.751-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:42:32.761-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:42:32.782-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:42:32.782-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T13:42:32.800-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:42:32.800-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T13:42:32.895-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.149 seconds
+[2023-09-29T13:43:33.716-0400] {processor.py:157} INFO - Started process (PID=6939) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:43:33.730-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T13:43:33.731-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:43:33.731-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:43:33.740-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:43:33.762-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:43:33.762-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T13:43:33.790-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:43:33.790-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T13:43:33.994-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.281 seconds
+[2023-09-29T13:44:27.419-0400] {processor.py:157} INFO - Started process (PID=7393) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:44:27.420-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T13:44:27.421-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:44:27.421-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:44:27.430-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:44:27.452-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:44:27.452-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T13:44:27.472-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:44:27.472-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T13:44:27.663-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.248 seconds
+[2023-09-29T13:45:25.369-0400] {processor.py:157} INFO - Started process (PID=7838) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:45:25.387-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T13:45:25.388-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:45:25.388-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:45:25.398-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:45:25.421-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:45:25.421-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T13:45:25.448-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:45:25.448-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T13:45:25.556-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.191 seconds
+[2023-09-29T13:46:21.202-0400] {processor.py:157} INFO - Started process (PID=7940) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:46:21.225-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T13:46:21.226-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:46:21.225-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:46:21.233-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:46:21.251-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:46:21.251-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T13:46:21.278-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:46:21.278-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T13:46:21.402-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.202 seconds
+[2023-09-29T13:47:24.106-0400] {processor.py:157} INFO - Started process (PID=8043) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:47:24.138-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T13:47:24.139-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:47:24.139-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:47:24.148-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:47:24.170-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:47:24.169-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T13:47:24.202-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:47:24.202-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T13:47:24.340-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.238 seconds
+[2023-09-29T13:48:20.336-0400] {processor.py:157} INFO - Started process (PID=8112) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:48:20.337-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T13:48:20.338-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:48:20.338-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:48:20.347-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:48:20.369-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:48:20.369-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T13:48:20.388-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:48:20.388-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T13:48:20.520-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.189 seconds
+[2023-09-29T13:49:17.025-0400] {processor.py:157} INFO - Started process (PID=8233) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:49:17.026-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T13:49:17.027-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:49:17.027-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:49:17.037-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:49:17.058-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:49:17.058-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T13:49:17.076-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:49:17.076-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T13:49:17.192-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.170 seconds
+[2023-09-29T13:50:14.174-0400] {processor.py:157} INFO - Started process (PID=8344) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:50:14.206-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T13:50:14.207-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:50:14.207-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:50:14.217-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:50:14.234-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:50:14.233-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T13:50:14.252-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:50:14.252-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T13:50:14.375-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.203 seconds
+[2023-09-29T13:51:08.626-0400] {processor.py:157} INFO - Started process (PID=8461) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:51:08.643-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T13:51:08.644-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:51:08.644-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:51:08.653-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:51:08.674-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:51:08.673-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T13:51:08.703-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:51:08.703-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T13:51:08.813-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.191 seconds
+[2023-09-29T13:52:01.497-0400] {processor.py:157} INFO - Started process (PID=8528) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:52:01.507-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T13:52:01.508-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:52:01.508-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:52:01.512-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:52:01.522-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:52:01.522-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T13:52:01.535-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:52:01.535-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T13:52:01.646-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.152 seconds
+[2023-09-29T13:52:55.620-0400] {processor.py:157} INFO - Started process (PID=8686) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:52:55.622-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T13:52:55.623-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:52:55.622-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:52:55.629-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:52:55.639-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:52:55.639-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T13:52:55.655-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:52:55.655-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T13:52:55.806-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.188 seconds
+[2023-09-29T13:53:50.736-0400] {processor.py:157} INFO - Started process (PID=8746) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:53:50.737-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T13:53:50.738-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:53:50.737-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:53:50.742-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:53:50.751-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:53:50.751-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T13:53:50.781-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:53:50.781-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T13:53:51.073-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.340 seconds
+[2023-09-29T13:54:43.869-0400] {processor.py:157} INFO - Started process (PID=8881) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:54:43.878-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T13:54:43.879-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:54:43.879-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:54:43.888-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:54:43.910-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:54:43.909-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T13:54:43.933-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:54:43.933-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T13:54:44.021-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.156 seconds
+[2023-09-29T13:55:42.326-0400] {processor.py:157} INFO - Started process (PID=8999) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:55:42.341-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T13:55:42.343-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:55:42.342-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:55:42.352-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:55:42.374-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:55:42.373-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T13:55:42.402-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:55:42.402-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T13:55:42.489-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.167 seconds
+[2023-09-29T13:56:39.781-0400] {processor.py:157} INFO - Started process (PID=9095) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:56:39.796-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T13:56:39.797-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:56:39.796-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:56:39.802-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:56:39.811-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:56:39.811-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T13:56:39.824-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:56:39.824-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T13:56:39.905-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.126 seconds
+[2023-09-29T13:57:38.216-0400] {processor.py:157} INFO - Started process (PID=9162) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:57:38.232-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T13:57:38.233-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:57:38.232-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:57:38.242-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:57:38.261-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:57:38.261-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T13:57:38.274-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:57:38.274-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T13:57:38.381-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.169 seconds
+[2023-09-29T13:58:37.124-0400] {processor.py:157} INFO - Started process (PID=9266) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:58:37.140-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T13:58:37.142-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:58:37.141-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:58:37.150-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:58:37.172-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:58:37.171-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T13:58:37.199-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:58:37.199-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T13:58:37.448-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.328 seconds
+[2023-09-29T13:59:34.127-0400] {processor.py:157} INFO - Started process (PID=9368) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:59:34.141-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T13:59:34.143-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:59:34.142-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:59:34.153-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T13:59:34.179-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:59:34.179-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T13:59:34.207-0400] {logging_mixin.py:151} INFO - [2023-09-29T13:59:34.207-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T13:59:34.313-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.191 seconds
+[2023-09-29T14:00:06.175-0400] {processor.py:157} INFO - Started process (PID=9427) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:00:06.203-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T14:00:06.204-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:00:06.204-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:00:06.215-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:00:06.239-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:00:06.239-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T14:00:06.268-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:00:06.268-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T14:00:06.370-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.198 seconds
+[2023-09-29T14:01:05.655-0400] {processor.py:157} INFO - Started process (PID=9657) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:01:05.663-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T14:01:05.664-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:01:05.663-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:01:05.673-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:01:05.697-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:01:05.697-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T14:01:05.717-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:01:05.716-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T14:01:05.931-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.280 seconds
+[2023-09-29T14:02:06.847-0400] {processor.py:157} INFO - Started process (PID=9806) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:02:06.857-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T14:02:06.858-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:02:06.858-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:02:06.864-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:02:06.877-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:02:06.877-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T14:02:06.896-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:02:06.895-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T14:02:07.025-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.180 seconds
+[2023-09-29T14:03:07.382-0400] {processor.py:157} INFO - Started process (PID=9902) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:03:07.398-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T14:03:07.398-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:03:07.398-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:03:07.404-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:03:07.413-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:03:07.413-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T14:03:07.426-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:03:07.426-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T14:03:07.572-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.192 seconds
+[2023-09-29T14:04:04.737-0400] {processor.py:157} INFO - Started process (PID=9983) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:04:04.821-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T14:04:04.822-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:04:04.822-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:04:04.833-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:04:04.857-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:04:04.856-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T14:04:04.893-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:04:04.892-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T14:04:05.008-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.275 seconds
+[2023-09-29T14:05:03.496-0400] {processor.py:157} INFO - Started process (PID=10275) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:05:03.506-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T14:05:03.506-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:05:03.506-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:05:03.512-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:05:03.524-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:05:03.524-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T14:05:03.543-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:05:03.543-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T14:05:03.918-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.425 seconds
+[2023-09-29T14:05:36.318-0400] {processor.py:157} INFO - Started process (PID=10409) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:05:36.344-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T14:05:36.346-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:05:36.345-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:05:36.355-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:05:36.379-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:05:36.379-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T14:05:36.410-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:05:36.410-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T14:05:36.603-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.288 seconds
+[2023-09-29T14:06:33.023-0400] {processor.py:157} INFO - Started process (PID=10550) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:06:33.035-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T14:06:33.036-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:06:33.036-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:06:33.042-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:06:33.054-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:06:33.054-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T14:06:33.071-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:06:33.070-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T14:06:33.193-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.173 seconds
+[2023-09-29T14:07:28.668-0400] {processor.py:157} INFO - Started process (PID=10625) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:07:28.683-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T14:07:28.684-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:07:28.684-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:07:28.689-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:07:28.699-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:07:28.699-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T14:07:28.713-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:07:28.713-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T14:07:28.850-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.184 seconds
+[2023-09-29T14:08:26.386-0400] {processor.py:157} INFO - Started process (PID=10696) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:08:26.406-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T14:08:26.407-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:08:26.406-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:08:26.416-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:08:26.439-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:08:26.439-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T14:08:26.467-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:08:26.466-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T14:08:26.626-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.244 seconds
+[2023-09-29T14:09:29.450-0400] {processor.py:157} INFO - Started process (PID=10823) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:09:29.465-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T14:09:29.466-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:09:29.466-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:09:29.476-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:09:29.498-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:09:29.498-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T14:09:29.524-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:09:29.524-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T14:09:29.653-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.207 seconds
+[2023-09-29T14:10:01.637-0400] {processor.py:157} INFO - Started process (PID=10859) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:10:01.660-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T14:10:01.662-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:10:01.661-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:10:01.671-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:10:01.693-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:10:01.693-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T14:10:01.725-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:10:01.724-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T14:10:01.882-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.249 seconds
+[2023-09-29T14:11:02.786-0400] {processor.py:157} INFO - Started process (PID=10945) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:11:02.807-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T14:11:02.808-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:11:02.807-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:11:02.817-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:11:02.840-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:11:02.840-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T14:11:02.871-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:11:02.871-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T14:11:03.054-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.273 seconds
+[2023-09-29T14:11:35.833-0400] {processor.py:157} INFO - Started process (PID=10980) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:11:35.834-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T14:11:35.835-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:11:35.834-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:11:35.844-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:11:35.867-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:11:35.867-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T14:11:35.886-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:11:35.886-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T14:11:36.070-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.242 seconds
+[2023-09-29T14:12:32.656-0400] {processor.py:157} INFO - Started process (PID=11042) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:12:32.669-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T14:12:32.670-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:12:32.670-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:12:32.679-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:12:32.701-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:12:32.700-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T14:12:32.727-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:12:32.727-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T14:12:32.849-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.197 seconds
+[2023-09-29T14:13:27.564-0400] {processor.py:157} INFO - Started process (PID=11109) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:13:27.585-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T14:13:27.587-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:13:27.586-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:13:27.596-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:13:27.617-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:13:27.617-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T14:13:27.648-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:13:27.648-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T14:13:27.789-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.229 seconds
+[2023-09-29T14:14:25.326-0400] {processor.py:157} INFO - Started process (PID=11173) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:14:25.356-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T14:14:25.357-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:14:25.357-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:14:25.366-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:14:25.388-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:14:25.387-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T14:14:25.418-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:14:25.418-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T14:14:25.556-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.234 seconds
+[2023-09-29T14:15:21.501-0400] {processor.py:157} INFO - Started process (PID=11236) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:15:21.526-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T14:15:21.527-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:15:21.526-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:15:21.536-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:15:21.557-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:15:21.557-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T14:15:21.585-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:15:21.585-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T14:15:21.721-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.222 seconds
+[2023-09-29T14:16:20.730-0400] {processor.py:157} INFO - Started process (PID=11297) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:16:20.746-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T14:16:20.747-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:16:20.746-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:16:20.752-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:16:20.762-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:16:20.761-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T14:16:20.774-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:16:20.774-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T14:16:20.925-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.197 seconds
+[2023-09-29T14:17:18.703-0400] {processor.py:157} INFO - Started process (PID=11360) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:17:18.725-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T14:17:18.725-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:17:18.725-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:17:18.732-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:17:18.742-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:17:18.742-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T14:17:18.755-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:17:18.755-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T14:17:18.892-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.193 seconds
+[2023-09-29T14:18:15.156-0400] {processor.py:157} INFO - Started process (PID=11424) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:18:15.174-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T14:18:15.175-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:18:15.174-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:18:15.185-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:18:15.208-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:18:15.208-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T14:18:15.236-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:18:15.235-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T14:18:15.384-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.231 seconds
+[2023-09-29T14:19:13.497-0400] {processor.py:157} INFO - Started process (PID=11521) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:19:13.507-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T14:19:13.508-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:19:13.508-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:19:13.517-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:19:13.538-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:19:13.538-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T14:19:13.556-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:19:13.556-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T14:19:13.727-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.234 seconds
+[2023-09-29T14:20:09.902-0400] {processor.py:157} INFO - Started process (PID=11593) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:20:09.910-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T14:20:09.911-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:20:09.911-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:20:09.920-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:20:09.942-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:20:09.941-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T14:20:09.955-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:20:09.955-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T14:20:10.086-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.188 seconds
+[2023-09-29T14:21:07.854-0400] {processor.py:157} INFO - Started process (PID=11655) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:21:07.869-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T14:21:07.870-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:21:07.870-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:21:07.879-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:21:07.900-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:21:07.900-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T14:21:07.930-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:21:07.930-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T14:21:08.066-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.215 seconds
+[2023-09-29T14:22:06.235-0400] {processor.py:157} INFO - Started process (PID=11716) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:22:06.259-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T14:22:06.260-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:22:06.259-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:22:06.269-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:22:06.291-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:22:06.291-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T14:22:06.321-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:22:06.321-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T14:22:06.476-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.246 seconds
+[2023-09-29T14:23:07.081-0400] {processor.py:157} INFO - Started process (PID=11829) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:23:07.099-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T14:23:07.100-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:23:07.100-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:23:07.105-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:23:07.115-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:23:07.114-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T14:23:07.128-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:23:07.128-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T14:23:07.261-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.182 seconds
+[2023-09-29T14:24:03.444-0400] {processor.py:157} INFO - Started process (PID=11894) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:24:03.458-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T14:24:03.459-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:24:03.459-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:24:03.464-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:24:03.473-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:24:03.473-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T14:24:03.486-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:24:03.486-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T14:24:03.628-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.186 seconds
+[2023-09-29T14:25:01.060-0400] {processor.py:157} INFO - Started process (PID=11956) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:25:01.082-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T14:25:01.084-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:25:01.083-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:25:01.094-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:25:01.117-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:25:01.117-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T14:25:01.146-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:25:01.146-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T14:25:01.300-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.244 seconds
+[2023-09-29T14:25:58.699-0400] {processor.py:157} INFO - Started process (PID=12034) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:25:58.717-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T14:25:58.718-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:25:58.717-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:25:58.727-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:25:58.748-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:25:58.748-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T14:25:58.777-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:25:58.777-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T14:25:58.900-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.205 seconds
+[2023-09-29T14:26:55.932-0400] {processor.py:157} INFO - Started process (PID=12096) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:26:55.952-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T14:26:55.953-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:26:55.953-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:26:55.963-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:26:55.974-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:26:55.973-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T14:26:55.986-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:26:55.986-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T14:26:56.121-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.193 seconds
+[2023-09-29T14:27:53.446-0400] {processor.py:157} INFO - Started process (PID=12161) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:27:53.465-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T14:27:53.466-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:27:53.465-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:27:53.475-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:27:53.502-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:27:53.501-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T14:27:53.524-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:27:53.524-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T14:27:53.661-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.219 seconds
+[2023-09-29T14:28:52.124-0400] {processor.py:157} INFO - Started process (PID=12228) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:28:52.140-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T14:28:52.141-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:28:52.141-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:28:52.151-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:28:52.174-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:28:52.173-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T14:28:52.190-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:28:52.190-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T14:28:52.339-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.219 seconds
+[2023-09-29T14:29:43.220-0400] {processor.py:157} INFO - Started process (PID=12286) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:29:43.240-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T14:29:43.241-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:29:43.241-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:29:43.251-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:29:43.273-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:29:43.273-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T14:29:43.302-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:29:43.302-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T14:29:43.449-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.232 seconds
+[2023-09-29T14:30:36.070-0400] {processor.py:157} INFO - Started process (PID=12348) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:30:36.104-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T14:30:36.105-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:30:36.104-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:30:36.114-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:30:36.135-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:30:36.135-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T14:30:36.170-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:30:36.169-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T14:30:36.293-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.226 seconds
+[2023-09-29T14:31:30.302-0400] {processor.py:157} INFO - Started process (PID=12412) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:31:30.320-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T14:31:30.322-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:31:30.321-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:31:30.330-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:31:30.352-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:31:30.352-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T14:31:30.379-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:31:30.379-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T14:31:30.486-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.188 seconds
+[2023-09-29T14:32:27.158-0400] {processor.py:157} INFO - Started process (PID=12473) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:32:27.288-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T14:32:27.290-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:32:27.289-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:32:27.299-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:32:27.320-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:32:27.320-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T14:32:27.343-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:32:27.343-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T14:32:27.464-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.310 seconds
+[2023-09-29T14:33:25.980-0400] {processor.py:157} INFO - Started process (PID=12545) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:33:25.998-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T14:33:25.999-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:33:25.999-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:33:26.008-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:33:26.030-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:33:26.030-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T14:33:26.058-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:33:26.058-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T14:33:26.184-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.207 seconds
+[2023-09-29T14:34:24.798-0400] {processor.py:157} INFO - Started process (PID=12611) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:34:24.808-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T14:34:24.809-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:34:24.809-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:34:24.819-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:34:24.840-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:34:24.840-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T14:34:24.865-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:34:24.865-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T14:34:25.007-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.213 seconds
+[2023-09-29T14:35:21.931-0400] {processor.py:157} INFO - Started process (PID=12724) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:35:21.951-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T14:35:21.952-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:35:21.952-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:35:21.961-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:35:21.983-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:35:21.982-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T14:35:22.012-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:35:22.012-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T14:35:22.119-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.191 seconds
+[2023-09-29T14:36:16.204-0400] {processor.py:157} INFO - Started process (PID=12787) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:36:16.223-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T14:36:16.224-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:36:16.224-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:36:16.229-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:36:16.239-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:36:16.238-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T14:36:16.252-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:36:16.252-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T14:36:16.390-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.189 seconds
+[2023-09-29T14:37:16.306-0400] {processor.py:157} INFO - Started process (PID=12893) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:37:16.332-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T14:37:16.332-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:37:16.332-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:37:16.338-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:37:16.347-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:37:16.347-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T14:37:16.361-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:37:16.361-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T14:37:16.516-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.214 seconds
+[2023-09-29T14:38:12.150-0400] {processor.py:157} INFO - Started process (PID=12992) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:38:12.280-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T14:38:12.281-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:38:12.281-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:38:12.290-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:38:12.315-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:38:12.314-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T14:38:12.346-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:38:12.346-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T14:38:12.807-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.659 seconds
+[2023-09-29T14:39:10.718-0400] {processor.py:157} INFO - Started process (PID=13059) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:39:10.726-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T14:39:10.727-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:39:10.726-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:39:10.736-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:39:10.758-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:39:10.758-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T14:39:10.782-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:39:10.781-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T14:39:10.909-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.195 seconds
+[2023-09-29T14:40:08.418-0400] {processor.py:157} INFO - Started process (PID=13179) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:40:08.438-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T14:40:08.439-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:40:08.439-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:40:08.450-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:40:08.473-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:40:08.473-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T14:40:08.499-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:40:08.499-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T14:40:08.662-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.248 seconds
+[2023-09-29T14:41:02.797-0400] {processor.py:157} INFO - Started process (PID=13241) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:41:02.822-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T14:41:02.823-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:41:02.822-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:41:02.832-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:41:02.855-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:41:02.855-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T14:41:02.883-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:41:02.883-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T14:41:03.009-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.216 seconds
+[2023-09-29T14:42:01.073-0400] {processor.py:157} INFO - Started process (PID=13307) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:42:01.133-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T14:42:01.134-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:42:01.133-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:42:01.143-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:42:01.165-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:42:01.165-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T14:42:01.203-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:42:01.203-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T14:42:01.511-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.442 seconds
+[2023-09-29T14:42:59.781-0400] {processor.py:157} INFO - Started process (PID=13414) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:42:59.799-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T14:42:59.800-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:42:59.799-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:42:59.807-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:42:59.825-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:42:59.825-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T14:42:59.852-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:42:59.851-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T14:43:00.000-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.223 seconds
+[2023-09-29T14:43:57.604-0400] {processor.py:157} INFO - Started process (PID=13480) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:43:57.622-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T14:43:57.623-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:43:57.622-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:43:57.628-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:43:57.638-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:43:57.637-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T14:43:57.650-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:43:57.650-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T14:43:57.745-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.143 seconds
+[2023-09-29T14:44:53.340-0400] {processor.py:157} INFO - Started process (PID=13542) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:44:53.359-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T14:44:53.360-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:44:53.359-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:44:53.369-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:44:53.390-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:44:53.389-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T14:44:53.420-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:44:53.420-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T14:44:53.609-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.273 seconds
+[2023-09-29T14:45:49.045-0400] {processor.py:157} INFO - Started process (PID=13603) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:45:49.063-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T14:45:49.064-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:45:49.063-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:45:49.073-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:45:49.093-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:45:49.093-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T14:45:49.122-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:45:49.122-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T14:45:49.252-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.210 seconds
+[2023-09-29T14:46:46.459-0400] {processor.py:157} INFO - Started process (PID=13668) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:46:46.471-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T14:46:46.472-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:46:46.472-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:46:46.481-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:46:46.504-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:46:46.503-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T14:46:46.529-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:46:46.528-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T14:46:46.653-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.199 seconds
+[2023-09-29T14:47:44.095-0400] {processor.py:157} INFO - Started process (PID=13731) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:47:44.116-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T14:47:44.117-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:47:44.117-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:47:44.127-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:47:44.149-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:47:44.148-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T14:47:44.163-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:47:44.162-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T14:47:44.432-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.340 seconds
+[2023-09-29T14:48:15.125-0400] {processor.py:157} INFO - Started process (PID=13764) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:48:15.125-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T14:48:15.126-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:48:15.125-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:48:15.130-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:48:15.140-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:48:15.140-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T14:48:15.154-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:48:15.154-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T14:48:15.319-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.197 seconds
+[2023-09-29T14:49:11.755-0400] {processor.py:157} INFO - Started process (PID=13825) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:49:11.770-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T14:49:11.771-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:49:11.771-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:49:11.777-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:49:11.787-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:49:11.786-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T14:49:11.800-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:49:11.800-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T14:49:12.060-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.307 seconds
+[2023-09-29T14:50:10.479-0400] {processor.py:157} INFO - Started process (PID=13889) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:50:10.502-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T14:50:10.503-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:50:10.502-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:50:10.508-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:50:10.518-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:50:10.518-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T14:50:10.550-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:50:10.550-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T14:50:10.674-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.197 seconds
+[2023-09-29T14:51:09.642-0400] {processor.py:157} INFO - Started process (PID=13950) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:51:09.656-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T14:51:09.657-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:51:09.657-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:51:09.665-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:51:09.684-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:51:09.684-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T14:51:09.808-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:51:09.808-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T14:51:09.924-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.286 seconds
+[2023-09-29T14:52:07.329-0400] {processor.py:157} INFO - Started process (PID=14012) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:52:07.346-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T14:52:07.347-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:52:07.346-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:52:07.352-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:52:07.361-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:52:07.361-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T14:52:07.375-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:52:07.375-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T14:52:07.615-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.288 seconds
+[2023-09-29T14:53:07.788-0400] {processor.py:157} INFO - Started process (PID=14086) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:53:07.813-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T14:53:07.814-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:53:07.814-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:53:07.824-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:53:07.845-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:53:07.845-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T14:53:07.965-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:53:07.965-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T14:53:08.118-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.334 seconds
+[2023-09-29T14:54:06.995-0400] {processor.py:157} INFO - Started process (PID=14150) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:54:07.012-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T14:54:07.013-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:54:07.013-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:54:07.022-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:54:07.043-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:54:07.043-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T14:54:07.071-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:54:07.070-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T14:54:07.186-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.195 seconds
+[2023-09-29T14:55:05.590-0400] {processor.py:157} INFO - Started process (PID=14257) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:55:05.633-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T14:55:05.634-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:55:05.634-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:55:05.643-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:55:05.664-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:55:05.664-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T14:55:05.685-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:55:05.685-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T14:55:05.794-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.207 seconds
+[2023-09-29T14:56:02.396-0400] {processor.py:157} INFO - Started process (PID=14322) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:56:02.491-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T14:56:02.492-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:56:02.491-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:56:02.501-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:56:02.523-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:56:02.523-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T14:56:02.556-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:56:02.555-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T14:56:02.723-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.330 seconds
+[2023-09-29T14:57:02.697-0400] {processor.py:157} INFO - Started process (PID=14385) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:57:02.723-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T14:57:02.724-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:57:02.723-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:57:02.733-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:57:02.755-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:57:02.755-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T14:57:02.785-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:57:02.785-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T14:57:02.918-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.226 seconds
+[2023-09-29T14:57:58.107-0400] {processor.py:157} INFO - Started process (PID=14446) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:57:58.126-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T14:57:58.127-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:57:58.127-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:57:58.137-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:57:58.156-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:57:58.156-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T14:57:58.169-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:57:58.169-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T14:57:58.323-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.221 seconds
+[2023-09-29T14:58:50.398-0400] {processor.py:157} INFO - Started process (PID=14512) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:58:50.424-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T14:58:50.425-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:58:50.425-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:58:50.434-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:58:50.456-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:58:50.456-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T14:58:50.487-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:58:50.487-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T14:58:50.621-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.227 seconds
+[2023-09-29T14:59:50.650-0400] {processor.py:157} INFO - Started process (PID=14624) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:59:50.677-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T14:59:50.678-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:59:50.678-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:59:50.687-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T14:59:50.709-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:59:50.709-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T14:59:50.740-0400] {logging_mixin.py:151} INFO - [2023-09-29T14:59:50.740-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T14:59:50.874-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.228 seconds
+[2023-09-29T15:00:55.202-0400] {processor.py:157} INFO - Started process (PID=14740) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T15:00:55.217-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T15:00:55.218-0400] {logging_mixin.py:151} INFO - [2023-09-29T15:00:55.218-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T15:00:55.227-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T15:00:55.248-0400] {logging_mixin.py:151} INFO - [2023-09-29T15:00:55.248-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T15:00:55.278-0400] {logging_mixin.py:151} INFO - [2023-09-29T15:00:55.278-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T15:00:55.396-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.198 seconds
+[2023-09-29T15:01:27.212-0400] {processor.py:157} INFO - Started process (PID=14780) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T15:01:27.235-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T15:01:27.236-0400] {logging_mixin.py:151} INFO - [2023-09-29T15:01:27.236-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T15:01:27.245-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T15:01:27.267-0400] {logging_mixin.py:151} INFO - [2023-09-29T15:01:27.267-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T15:01:27.297-0400] {logging_mixin.py:151} INFO - [2023-09-29T15:01:27.297-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T15:01:27.425-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.217 seconds
+[2023-09-29T15:01:58.686-0400] {processor.py:157} INFO - Started process (PID=14882) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T15:01:58.754-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T15:01:58.755-0400] {logging_mixin.py:151} INFO - [2023-09-29T15:01:58.755-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T15:01:58.764-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T15:01:58.786-0400] {logging_mixin.py:151} INFO - [2023-09-29T15:01:58.786-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T15:01:58.818-0400] {logging_mixin.py:151} INFO - [2023-09-29T15:01:58.817-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T15:01:58.944-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.262 seconds
+[2023-09-29T15:02:30.551-0400] {processor.py:157} INFO - Started process (PID=14921) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T15:02:30.572-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T15:02:30.573-0400] {logging_mixin.py:151} INFO - [2023-09-29T15:02:30.573-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T15:02:30.583-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T15:02:30.592-0400] {logging_mixin.py:151} INFO - [2023-09-29T15:02:30.592-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T15:02:30.605-0400] {logging_mixin.py:151} INFO - [2023-09-29T15:02:30.605-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T15:02:30.708-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.160 seconds
+[2023-09-29T15:03:30.309-0400] {processor.py:157} INFO - Started process (PID=14988) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T15:03:30.325-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T15:03:30.326-0400] {logging_mixin.py:151} INFO - [2023-09-29T15:03:30.326-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T15:03:30.336-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T15:03:30.357-0400] {logging_mixin.py:151} INFO - [2023-09-29T15:03:30.357-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T15:03:30.386-0400] {logging_mixin.py:151} INFO - [2023-09-29T15:03:30.386-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T15:03:30.540-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.234 seconds
+[2023-09-29T15:04:26.061-0400] {processor.py:157} INFO - Started process (PID=15047) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T15:04:26.085-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T15:04:26.087-0400] {logging_mixin.py:151} INFO - [2023-09-29T15:04:26.086-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T15:04:26.096-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T15:04:26.119-0400] {logging_mixin.py:151} INFO - [2023-09-29T15:04:26.118-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T15:04:26.150-0400] {logging_mixin.py:151} INFO - [2023-09-29T15:04:26.150-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T15:04:26.297-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.240 seconds
+[2023-09-29T15:05:24.336-0400] {processor.py:157} INFO - Started process (PID=15118) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T15:05:24.363-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T15:05:24.364-0400] {logging_mixin.py:151} INFO - [2023-09-29T15:05:24.364-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T15:05:24.373-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T15:05:24.389-0400] {logging_mixin.py:151} INFO - [2023-09-29T15:05:24.389-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T15:05:24.401-0400] {logging_mixin.py:151} INFO - [2023-09-29T15:05:24.401-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T15:05:24.523-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.189 seconds
+[2023-09-29T15:06:22.232-0400] {processor.py:157} INFO - Started process (PID=15181) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T15:06:22.396-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T15:06:22.397-0400] {logging_mixin.py:151} INFO - [2023-09-29T15:06:22.396-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T15:06:22.406-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T15:06:22.428-0400] {logging_mixin.py:151} INFO - [2023-09-29T15:06:22.428-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T15:06:22.460-0400] {logging_mixin.py:151} INFO - [2023-09-29T15:06:22.460-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T15:06:22.599-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.370 seconds
+[2023-09-29T15:07:19.185-0400] {processor.py:157} INFO - Started process (PID=15286) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T15:07:19.197-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T15:07:19.198-0400] {logging_mixin.py:151} INFO - [2023-09-29T15:07:19.198-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T15:07:19.207-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T15:07:19.229-0400] {logging_mixin.py:151} INFO - [2023-09-29T15:07:19.228-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T15:07:19.255-0400] {logging_mixin.py:151} INFO - [2023-09-29T15:07:19.255-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T15:07:19.392-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.211 seconds
+[2023-09-29T15:08:14.131-0400] {processor.py:157} INFO - Started process (PID=15344) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T15:08:14.147-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T15:08:14.147-0400] {logging_mixin.py:151} INFO - [2023-09-29T15:08:14.147-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T15:08:14.152-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T15:08:14.161-0400] {logging_mixin.py:151} INFO - [2023-09-29T15:08:14.161-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T15:08:14.174-0400] {logging_mixin.py:151} INFO - [2023-09-29T15:08:14.174-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T15:08:14.297-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.168 seconds
+[2023-09-29T15:09:08.882-0400] {processor.py:157} INFO - Started process (PID=15407) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T15:09:08.908-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T15:09:08.909-0400] {logging_mixin.py:151} INFO - [2023-09-29T15:09:08.909-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T15:09:08.918-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T15:09:08.939-0400] {logging_mixin.py:151} INFO - [2023-09-29T15:09:08.939-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T15:09:08.958-0400] {logging_mixin.py:151} INFO - [2023-09-29T15:09:08.958-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T15:09:09.089-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.211 seconds
+[2023-09-29T15:09:40.974-0400] {processor.py:157} INFO - Started process (PID=15490) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T15:09:40.975-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T15:09:40.976-0400] {logging_mixin.py:151} INFO - [2023-09-29T15:09:40.976-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T15:09:40.985-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T15:09:41.003-0400] {logging_mixin.py:151} INFO - [2023-09-29T15:09:41.002-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T15:09:41.015-0400] {logging_mixin.py:151} INFO - [2023-09-29T15:09:41.015-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T15:09:41.192-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.222 seconds
+[2023-09-29T15:10:40.956-0400] {processor.py:157} INFO - Started process (PID=15554) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T15:10:40.979-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T15:10:40.981-0400] {logging_mixin.py:151} INFO - [2023-09-29T15:10:40.980-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T15:10:40.989-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T15:10:41.011-0400] {logging_mixin.py:151} INFO - [2023-09-29T15:10:41.011-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T15:10:41.042-0400] {logging_mixin.py:151} INFO - [2023-09-29T15:10:41.042-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T15:10:41.204-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.251 seconds
+[2023-09-29T15:11:40.326-0400] {processor.py:157} INFO - Started process (PID=15615) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T15:11:40.344-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T15:11:40.346-0400] {logging_mixin.py:151} INFO - [2023-09-29T15:11:40.345-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T15:11:40.355-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T15:11:40.377-0400] {logging_mixin.py:151} INFO - [2023-09-29T15:11:40.376-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T15:11:40.403-0400] {logging_mixin.py:151} INFO - [2023-09-29T15:11:40.403-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T15:11:40.545-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.223 seconds
+[2023-09-29T15:12:37.150-0400] {processor.py:157} INFO - Started process (PID=15677) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T15:12:37.162-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T15:12:37.163-0400] {logging_mixin.py:151} INFO - [2023-09-29T15:12:37.162-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T15:12:37.172-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T15:12:37.193-0400] {logging_mixin.py:151} INFO - [2023-09-29T15:12:37.193-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T15:12:37.219-0400] {logging_mixin.py:151} INFO - [2023-09-29T15:12:37.219-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T15:12:37.360-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.214 seconds
+[2023-09-29T15:13:36.395-0400] {processor.py:157} INFO - Started process (PID=15738) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T15:13:36.416-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T15:13:36.417-0400] {logging_mixin.py:151} INFO - [2023-09-29T15:13:36.417-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T15:13:36.423-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T15:13:36.433-0400] {logging_mixin.py:151} INFO - [2023-09-29T15:13:36.433-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T15:13:36.446-0400] {logging_mixin.py:151} INFO - [2023-09-29T15:13:36.446-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T15:13:36.579-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.189 seconds
+[2023-09-29T15:14:08.352-0400] {processor.py:157} INFO - Started process (PID=15775) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T15:14:08.353-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T15:14:08.354-0400] {logging_mixin.py:151} INFO - [2023-09-29T15:14:08.353-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T15:14:08.363-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T15:14:08.375-0400] {logging_mixin.py:151} INFO - [2023-09-29T15:14:08.375-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T15:14:08.389-0400] {logging_mixin.py:151} INFO - [2023-09-29T15:14:08.388-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T15:14:08.502-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.154 seconds
+[2023-09-29T15:15:03.813-0400] {processor.py:157} INFO - Started process (PID=15837) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T15:15:03.838-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T15:15:03.839-0400] {logging_mixin.py:151} INFO - [2023-09-29T15:15:03.839-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T15:15:03.849-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T15:15:03.870-0400] {logging_mixin.py:151} INFO - [2023-09-29T15:15:03.870-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T15:15:03.901-0400] {logging_mixin.py:151} INFO - [2023-09-29T15:15:03.901-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T15:15:04.016-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.206 seconds
+[2023-09-29T15:16:07.228-0400] {processor.py:157} INFO - Started process (PID=15905) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T15:16:07.248-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T15:16:07.249-0400] {logging_mixin.py:151} INFO - [2023-09-29T15:16:07.248-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T15:16:07.258-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T15:16:07.280-0400] {logging_mixin.py:151} INFO - [2023-09-29T15:16:07.279-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T15:16:07.309-0400] {logging_mixin.py:151} INFO - [2023-09-29T15:16:07.309-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T15:16:07.440-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.217 seconds
+[2023-09-29T15:17:09.676-0400] {processor.py:157} INFO - Started process (PID=16008) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T15:17:09.697-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T15:17:09.698-0400] {logging_mixin.py:151} INFO - [2023-09-29T15:17:09.697-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T15:17:09.707-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T15:17:09.724-0400] {logging_mixin.py:151} INFO - [2023-09-29T15:17:09.724-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T15:17:09.737-0400] {logging_mixin.py:151} INFO - [2023-09-29T15:17:09.737-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T15:17:09.870-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.197 seconds
+[2023-09-29T15:18:09.024-0400] {processor.py:157} INFO - Started process (PID=16124) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T15:18:09.025-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T15:18:09.026-0400] {logging_mixin.py:151} INFO - [2023-09-29T15:18:09.025-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T15:18:09.034-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T15:18:09.055-0400] {logging_mixin.py:151} INFO - [2023-09-29T15:18:09.055-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T15:18:09.077-0400] {logging_mixin.py:151} INFO - [2023-09-29T15:18:09.077-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T15:18:09.234-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.212 seconds
+[2023-09-29T15:19:08.483-0400] {processor.py:157} INFO - Started process (PID=16225) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T15:19:08.504-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T15:19:08.506-0400] {logging_mixin.py:151} INFO - [2023-09-29T15:19:08.505-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T15:19:08.511-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T15:19:08.521-0400] {logging_mixin.py:151} INFO - [2023-09-29T15:19:08.520-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T15:19:08.533-0400] {logging_mixin.py:151} INFO - [2023-09-29T15:19:08.533-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T15:19:08.651-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.172 seconds
+[2023-09-29T15:20:05.010-0400] {processor.py:157} INFO - Started process (PID=16294) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T15:20:05.027-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T15:20:05.028-0400] {logging_mixin.py:151} INFO - [2023-09-29T15:20:05.028-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T15:20:05.038-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T15:20:05.061-0400] {logging_mixin.py:151} INFO - [2023-09-29T15:20:05.060-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T15:20:05.087-0400] {logging_mixin.py:151} INFO - [2023-09-29T15:20:05.087-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T15:20:05.211-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.205 seconds
+[2023-09-29T15:21:03.689-0400] {processor.py:157} INFO - Started process (PID=16357) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T15:21:03.704-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T15:21:03.705-0400] {logging_mixin.py:151} INFO - [2023-09-29T15:21:03.704-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T15:21:03.710-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T15:21:03.720-0400] {logging_mixin.py:151} INFO - [2023-09-29T15:21:03.720-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T15:21:03.733-0400] {logging_mixin.py:151} INFO - [2023-09-29T15:21:03.733-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T15:21:03.865-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.178 seconds
+[2023-09-29T15:21:34.960-0400] {processor.py:157} INFO - Started process (PID=16385) to work on /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T15:21:34.961-0400] {processor.py:829} INFO - Processing file /home/erosennnin/airflow/dags/my_first_dag.py for tasks to queue
+[2023-09-29T15:21:34.962-0400] {logging_mixin.py:151} INFO - [2023-09-29T15:21:34.962-0400] {dagbag.py:539} INFO - Filling up the DagBag from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T15:21:34.971-0400] {processor.py:839} INFO - DAG(s) dict_keys(['my-first-dag']) retrieved from /home/erosennnin/airflow/dags/my_first_dag.py
+[2023-09-29T15:21:34.992-0400] {logging_mixin.py:151} INFO - [2023-09-29T15:21:34.992-0400] {dag.py:2915} INFO - Sync 1 DAGs
+[2023-09-29T15:21:35.012-0400] {logging_mixin.py:151} INFO - [2023-09-29T15:21:35.012-0400] {dag.py:3696} INFO - Setting next_dagrun for my-first-dag to 2023-09-29T00:00:00+00:00, run_after=2023-09-30T00:00:00+00:00
+[2023-09-29T15:21:35.228-0400] {processor.py:179} INFO - Processing /home/erosennnin/airflow/dags/my_first_dag.py took 0.272 seconds
