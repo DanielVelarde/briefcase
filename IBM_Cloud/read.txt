@@ -1,0 +1,31 @@
+How to Access Documentation and Support Resources
+
+Este artículo tiene contenido sin traducir
+Dado que este elemento tiene contenido que no está alojado en Coursera, no se traducirá al idioma que elegiste.
+
+There is a plethora of further information about IBM Cloudant online, including documentation, training content, and support resources. 
+
+Here are some useful direct links to those resources: 
+
+    Documentation – https://cloud.ibm.com/docs/Cloudant
+
+ 
+
+Training Content – https://cloud.ibm.com/docs/Cloudant?topic=Cloudant-learning-center
+
+ 
+
+Support Resources – https://cloud.ibm.com/docs/get-support
+ 
+
+  export CLOUDANTURL="https://apikey-v2-1d20syg3wtqbbef4f8qnx18kbo8a6m44dbi1n6q0ce4v:cf50b573632894f0f4a5d901daa0dbd8@aab1d1fa-1ff8-4c87-9a16-8cce648741e3-bluemix.cloudantnosqldb.appdomain.cloud"
+	
+	db.createUser({
+  user: "ero",
+  pwd: "6962277",
+  roles: ["readWrite", "dbAdmin"]
+})
+
+    mongoimport -u ero -p 6962277 --authenticationDatabase admin --db training --collection diamonds --file diamonds.json
+	mongoexport -u ero -p 6962277 --authenticationDatabase admin --db training --collection diamonds --out mongodb_exported_data.json
+	mongoexport -u ero -p 6962277 --authenticationDatabase admin --db training --collection diamonds --out mongodb_exported_data.csv --type=csv --fields _id,clarity,cut,price
