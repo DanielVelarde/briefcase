@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.10.17)  17 OCT 2023 17:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.10.17)  17 OCT 2023 17:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/home/erodesk/Git/briefcase/Latex/prueba de curriculum.tex"
-(/home/erodesk/Git/briefcase/Latex/prueba de curriculum.tex
+**/home/erodesk/Git/briefcase/Latex/CV-DVK-EE.tex
+(/home/erodesk/Git/briefcase/Latex/CV-DVK-EE.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-01-21> (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
@@ -177,8 +177,8 @@ Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and footer
 File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count272
 \l__pdf_internal_box=\box50
-) (./prueba de curriculum.aux)
-\openout1 = `"prueba de curriculum.aux"'.
+) (./CV-DVK-EE.aux)
+\openout1 = `CV-DVK-EE.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
 LaTeX Font Info:    ... okay on input line 12.
@@ -264,9 +264,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 12.
 LaTeX Info: Redefining \pageref on input line 12.
 LaTeX Info: Redefining \nameref on input line 12.
- (./prueba de curriculum.out) (./prueba de curriculum.out)
+ (./CV-DVK-EE.out) (./CV-DVK-EE.out)
 \@outlinefile=\write3
-\openout3 = `"prueba de curriculum.out"'.
+\openout3 = `CV-DVK-EE.out'.
 
 <photocv.jpeg, id=4, 602.25pt x 602.25pt>
 File: photocv.jpeg Graphic file (type jpg)
@@ -274,68 +274,63 @@ File: photocv.jpeg Graphic file (type jpg)
 Package pdftex.def Info: photocv.jpeg  used on input line 20.
 (pdftex.def)             Requested size: 71.13188pt x 71.12737pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 28.
+(Font)              <7> on input line 35.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 28.
- [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+(Font)              <5> on input line 35.
 
- <./photocv.jpeg>]
-Overfull \hbox (19.50748pt too wide) in paragraph at lines 98--99
+Overfull \hbox (19.50748pt too wide) in paragraph at lines 42--43
 [][]$\OT1/cmtt/m/n/10 https : / / www . coursera . org / account / accomplishments / certificate / 9S9DAUQLBP27$[] 
  []
 
 
-Overfull \hbox (19.50748pt too wide) in paragraph at lines 106--107
+Overfull \hbox (19.50748pt too wide) in paragraph at lines 49--50
 [][]$\OT1/cmtt/m/n/10 https : / / www . coursera . org / account / accomplishments / certificate / SG8MV2SLJXHC$[] 
  []
 
-[2]
-Overfull \hbox (19.50748pt too wide) in paragraph at lines 114--115
+
+Overfull \hbox (19.50748pt too wide) in paragraph at lines 56--57
 [][]$\OT1/cmtt/m/n/10 https : / / www . coursera . org / account / accomplishments / certificate / X6P3RHPT255M$[] 
  []
 
 
-Overfull \hbox (19.50748pt too wide) in paragraph at lines 122--123
-[][]$\OT1/cmtt/m/n/10 https : / / www . coursera . org / account / accomplishments / certificate / WEQ4BMAGTZZN$[] 
- []
-
-
-Overfull \hbox (19.50748pt too wide) in paragraph at lines 130--131
+Overfull \hbox (19.50748pt too wide) in paragraph at lines 70--71
 [][]$\OT1/cmtt/m/n/10 https : / / www . coursera . org / account / accomplishments / certificate / TN4F6WG8DWKB$[] 
  []
 
 
-Overfull \hbox (19.50748pt too wide) in paragraph at lines 138--139
+Overfull \hbox (19.50748pt too wide) in paragraph at lines 77--78
 [][]$\OT1/cmtt/m/n/10 https : / / www . coursera . org / account / accomplishments / certificate / AZMNGATPHMYT$[] 
  []
 
 
-Overfull \hbox (19.50748pt too wide) in paragraph at lines 146--147
+Overfull \hbox (19.50748pt too wide) in paragraph at lines 84--85
 [][]$\OT1/cmtt/m/n/10 https : / / www . coursera . org / account / accomplishments / certificate / EASM4DYAZY4L$[] 
  []
 
 
-Overfull \hbox (19.50748pt too wide) in paragraph at lines 154--155
+Overfull \hbox (19.50748pt too wide) in paragraph at lines 91--92
 [][]$\OT1/cmtt/m/n/10 https : / / www . coursera . org / account / accomplishments / certificate / HGASHU2DN99L$[] 
  []
 
-[3] [4] (./prueba de curriculum.aux)
-Package rerunfilecheck Info: File `"prueba de curriculum".out' has not changed.
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+ <./photocv.jpeg>] [2] (./CV-DVK-EE.aux)
+Package rerunfilecheck Info: File `CV-DVK-EE.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 8783 strings out of 480247
- 138504 string characters out of 5896150
- 445359 words of memory out of 5000000
- 26633 multiletter control sequences out of 15000+600000
- 470982 words of font info for 34 fonts, out of 8000000 for 9000
+ 8772 strings out of 480247
+ 138151 string characters out of 5896150
+ 448297 words of memory out of 5000000
+ 26629 multiletter control sequences out of 15000+600000
+ 470647 words of font info for 33 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 60i,11n,63p,408b,396s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/erodesk/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on "prueba de curriculum.pdf" (4 pages, 166143 bytes).
+ 60i,11n,63p,396b,327s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on CV-DVK-EE.pdf (2 pages, 154395 bytes).
 PDF statistics:
- 72 PDF objects out of 1000 (max. 8388607)
- 55 compressed objects within 1 object stream
- 14 named destinations out of 1000 (max. 500000)
+ 54 PDF objects out of 1000 (max. 8388607)
+ 40 compressed objects within 1 object stream
+ 8 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
