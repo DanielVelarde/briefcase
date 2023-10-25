@@ -1,0 +1,9 @@
+Dimension Table: softcartDimDate
+
+    dateid (Primary Key): A unique identifier for each date.
+    date (Date): The full date in a date format (e.g., "2021-02-20").
+    year (Integer): The year component of the date (e.g., 2021).
+    month (Integer): The numeric representation of the month (e.g., 2 for February).
+    monthname (String): The name of the month (e.g., "February").
+    day (Integer): The day of the month (e.g., 20).
+    weekday (String): The name of the day of the week (e.g., "Saturday").
