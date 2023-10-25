@@ -5,7 +5,7 @@ import mysql.connector
 mysql_connection = mysql.connector.connect(user='root', password='MjA3ODktZGFuaWVs', host='127.0.0.1', $
 
 # Define the connection string for DB2
-dsn_hostname = "98538591-7217-4024-b027-8baa776ffad1.c3n41cmd0nqnrk39u98g.databases.appdomain.cloud"
+dsn_hostname = "*"
 dsn_uid = "lvq13846"
 dsn_pwd = "BKiPKr2SUwwxfmFG"
 dsn_port = "30875"

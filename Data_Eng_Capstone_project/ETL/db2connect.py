@@ -6,7 +6,7 @@ import ibm_db
 
 # connectction details
 
-dsn_hostname = "98538591-7217-4024-b027-8baa776ffad1.c3n41cmd0nqnrk39u98g.databases.appdomain.cloud" # e.g.: "dashdb-txn-sbox-yp-dal09-04.services.dal.bluemix.net"
+dsn_hostname = "" # e.g.: "dashdb-txn-sbox-yp-dal09-04.services.dal.bluemix.net"
 dsn_uid = "xbt38733"        # e.g. "abc12345"
 dsn_pwd = "eZliaghna1RicCav"      # e.g. "7dBZ3wWt9XN6$o0J"
 dsn_port = "30875"                # e.g. "50000" 
