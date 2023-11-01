@@ -1,0 +1,1305 @@
+currency,name,fullName,precision,isMarginEnabled,isDebitEnabled
+CSP,csp,caspian,8,False,False
+LOKI,oxen,oxen,8,False,True
+NRG,nrg,energi,8,False,True
+HOT,hot,hotnow,8,False,False
+FET,fet,fetch.ai,8,True,True
+XMR,xmr,monero,8,True,True
+RBTC,rbtc,rsk smart bitcoin,8,False,True
+RIF,rif,rif token,8,False,True
+ANKR,ankr,ankr network,8,True,True
+DX,dx,dxchain,8,False,False
+MTV,mtv,multivac,8,False,True
+TRTL,trtl,turtlecoin,8,False,True
+ODE,ode,odem,8,False,False
+CRO,cro,crypto.com coin,8,True,True
+NPXS,npxs,pundi x,8,False,False
+SPND,spnd,spendcoin,8,False,False
+OPT,opt,optimus,8,False,False
+KMD,kmd,komodo,8,False,False
+RFOX,rfox,redfox,8,False,False
+TRY,try,turkish lira,2,False,False
+NIX,nix,nix,8,False,False
+TT,tt,thundercore,8,False,False
+NUSD,nusd,neutral dollar,8,False,False
+ATOM,atom,cosmos,8,True,True
+CHR,chr,chromia,8,True,True
+SNTR,sntr,silent notary,8,False,False
+NIM,nim,nimiq,8,False,False
+OCEAN,ocean,ocean protocol,8,True,True
+COTI,coti,coti,8,False,False
+FX,fx,function x,8,False,False
+SPRK,sprk,sparkster,8,False,False
+PIVX,pivx,pivx,8,False,False
+XTZ,xtz,tezos,8,True,True
+BNB,bnb,binance chain native token,8,True,True
+JAR,jar,jarvis  coins,8,False,False
+ALGO,algo,algorand,8,True,True
+VOL,vol,volume network token,8,False,False
+ADA,ada,cardano,8,True,True
+NEM,nem,xem,8,False,False
+XEM,xem,nem,8,True,True
+CIX100,cix100,cryptoindex 100,8,False,False
+ZEC,zec,zec,8,True,True
+WXT,wxt,wirex token,8,False,False
+OGO,ogo,origo,8,False,False
+FORESTPLUS,forestplus,the forbidden forest,8,False,False
+BOLT,bolt,bolt token,8,False,False
+ARPA,arpa,arpa token,8,True,True
+SERO,sero,sero,8,False,False
+CHZ,chz,chiliz,8,True,True
+WGP,wgp,w green pay,8,False,False
+NOIA,noia,syntropy,8,False,False
+DAPPT,dappt,dapp.com,8,False,False
+BLOC,bloc,blockcloud,8,False,False
+EOSC,eosc,eosforce,8,False,False
+DERO,dero,dero,8,False,True
+WIN,win,wink,8,True,True
+WAXP,waxp0,wax protocol tokens,8,False,False
+FKX,fkx,fortknoxster,8,False,False
+ENQ,enq,enecuum,8,False,False
+THETA,theta,theta,8,True,True
+ONE,one,harmony,8,True,True
+TOKO,toko,tokoin,8,False,False
+TFUEL,tfuel,theta fuel,8,False,False
+LOL,lol,emogi,8,False,False
+LUNA,luna,terra,8,False,True
+SDT,sdt,terra sdt,8,False,True
+VID,vid,vivid labs,8,False,False
+AMIO,amio,amino,8,False,False
+MXW,mxw,maxonrow,8,False,False
+SXP,sxp,solar,8,True,True
+VIDT,vidt,vidt dao,8,False,False
+AKRO,akro,akropolis,8,False,False
+ROOBEE,roobee,roobee,8,False,False
+AMPL,ampl,ampleforth,8,False,True
+MAP,map,map protocol,8,False,True
+COS,cos,contentos,8,False,False
+KPOL,kpol,proof of liquidity,8,False,True
+ARX,arx,arcs,8,False,True
+NWC,nwc,newscrypto,8,False,True
+BEPRO,bepro,bepro network,8,False,True
+VRA,vra,verasity,8,True,True
+EDGE,edge,edge,8,False,False
+KSM,ksm,kusama,8,True,True
+XNS,xns,insolar,8,False,True
+PMGT,pmgt,perth mint gold token,8,False,True
+ROAD,road,road,8,False,True
+SUTER,suter,suterusu,8,False,True
+ACOIN,acoin,alchemy,8,False,False
+VRAB,vrab,verasity,8,False,True
+VI,vi,vid,8,False,True
+ZEL,zel,zel,8,False,True
+AXE,axe,axe,8,False,False
+KCANDY,kcandy,kcandy,4,False,False
+STEEM,steem,steem,8,False,False
+SENSO,senso,sensorium,8,False,True
+PRE,pre,presearch,8,False,True
+XDB,xdb,digitalbits,8,False,True
+SYLO,sylo,sylo,8,False,True
+WOM,wom,wom protocol,8,False,True
+TNC2,tnc2,tnc group token,8,False,True
+LYXE,lyxe,lukso,8,False,True
+CADH,cadh,cadh,6,False,True
+JST,jst,just,8,True,True
+STX,stx,stacks,8,True,True
+USDN,usdn,neutrino usdn,8,False,True
+XSR,xsr,xensor,8,False,False
+PAZZI,pazzi,paparazzi,8,False,False
+COMP,comp,compound,8,True,True
+DGTX,dgtx,digitexfutures,8,False,False
+KAI,kai,kardiachain token,8,False,False
+DOT,dot,polkadot,8,True,True
+EWT,ewt,energy web token,8,False,False
+WEST,west,waves enterprise,8,False,False
+NVT,nvt,nerve,8,False,False
+BNS,bns,bitbns,8,False,False
+ORN,orn,orion protocol,8,True,True
+PNK,pnk,kleros,8,False,False
+WAVES,waves,waves,8,True,True
+PLT,plt,plutusdefi,8,False,False
+SUKU,suku,suku,8,False,True
+MLK,mlk,mil.k ,8,False,False
+DIA,dia,dia,8,False,False
+SHA,sha,safe haven,8,False,False
+LINK,link,chainlink,8,True,True
+DMG,dmg,dmm governance,8,False,False
+USDJ,usdj,usdj,8,False,False
+ALEPH,aleph,aleph.im,8,False,False
+EFX,efx,effect.ai,8,False,False
+CKB,ckb,nervos network,8,True,True
+UMA,uma,uma,8,True,True
+VELO,velo,velo,8,True,True
+SUN,sun,suntoken,8,True,True
+BUY,buy,burency,8,False,False
+YFI,yfi,yearn.finance,8,True,True
+UNI,uni,uniswap,8,True,True
+SNTVT,sntvt,sentivate,8,False,False
+UOS,uos,ultra,8,False,True
+SATT,satt,smart advertising transaction token,8,False,False
+KTS,ktst,kratos,8,False,False
+DEGO,dego,dego finance,8,False,True
+UDOO,udoo,hyprr,8,False,False
+RFUEL,rfuel,rio fuel token,8,False,False
+UBX,ubx,ubx,8,False,False
+FIL,fil,filecoin,8,True,True
+COMB,comb,combo,8,False,False
+REAP,reap,reapchain,8,False,False
+AAVE,aave,aave,8,True,True
+TONE,tone,te-food,8,False,False
+OPCT,opct,opacity,8,False,False
+UQC,uqc,uquid coin,8,False,False
+WIS,wis,experty wisdom token,8,False,False
+SHR,shr,sharering,8,False,False
+BCHA,bcha,bitcoin cash abc,8,False,False
+UBXT,ubxt,upbots,8,False,False
+ROSE,rose,oasis network,8,True,True
+UST,ust,terrausd,8,False,False
+CTI,cti,clintex,8,False,False
+ETH2,kseth,ethereum2.0,8,False,False
+BUX,bux,bux token,8,False,False
+XHV,xhv,haven protocol,8,False,False
+PLU,plu,pluton,8,False,False
+CAS,cas,cashaa,8,False,False
+GRT,grt,the graph,8,True,True
+MSWAP,mswap,moneyswap,8,False,False
+GOM2,gom2,gomoney2,8,False,False
+REVV,revv,revv,8,False,False
+LON,lon,tokenlon,8,False,False
+API3,api3,api3,8,True,True
+SUSHI,sushi,sushiswap,8,True,True
+UNFI,unfi,unifi protocol dao,8,False,False
+ALPA,alpa,alpaca city,8,False,False
+1INCH,1inch,1inch token,8,True,True
+HTR,htr,hathor,8,False,True
+FRONT,front,frontier,8,True,True
+WBTC,wbtc,wrapped bitcoin,8,False,False
+HYDRA,hydra,hydra,8,False,False
+MIR,mir,mirror protocol,8,False,True
+DFI,dfi,defichain,8,False,False
+FRM,frm,ferrum network,8,False,False
+CRV,crv,curve,8,True,True
+BTC3L,btc3l,btc 3x long,8,False,False
+BTC3S,btc3s,btc 3x short,8,False,False
+ETH3L,eth3l,eth 3x long,8,False,False
+ETH3S,eth3s,eth 3x short,8,False,False
+GZIL,gzil,governance zil,8,False,False
+PROPS,props,props token,8,False,False
+ZEN,zen,horizen,8,False,True
+CUDOS,cudos,cudos,8,False,False
+MAP2,lzm,loungem,8,False,False
+REN,ren,ren,8,True,True
+LRC,lrc,loopringcoin v2,8,True,True
+KLV,klv,klever,8,False,True
+BOA,boa,bosagora,8,False,False
+QNT,qnt,quant,8,True,True
+BAT,bat,bat,8,True,True
+DAO,dao,dao maker,8,True,True
+DOGE,doge,dogecoin,8,True,True
+STRONG,strong,strong,8,False,False
+TRIAS,trias,trias,8,False,False
+MITX,mitx,morpheus labs,8,False,False
+CAKE,cake,pancakeswap token,8,True,True
+ORAI,orai,oraichain token,8,False,False
+BRG,brg,bridge token,8,False,False
+LTX,ltx,lattice token,8,False,False
+ZEE,zee,zeroswaptoken,8,False,False
+MASK,mask,mask network,8,True,True
+IDEA,idea,ideaology,8,False,False
+PHA,pha,phala,8,False,True
+SRK,srk,sparkpoint,8,False,False
+SWINGBY,swingby,swingby,8,False,False
+AVAX,avax,avalanche,8,True,True
+DON,don,donnie_finance,8,False,False
+KRL,krl,kryll,8,False,False
+POLK,polk,polkamarkets,8,False,False
+RNDR,rndr,render token,8,True,True
+RLY,rly,rally,8,False,False
+ANC,anc,anchor protocol,8,False,True
+SKEY,skey,smartkey,8,False,False
+LAYER,layer,unilayer,8,False,False
+TARA,tara,taraxa coin,8,False,False
+XYM,xym,symbol,8,False,False
+DYP,dyp,dypius,8,False,False
+PCX,pcx,chainx,8,False,False
+BTMX,btmx,bitmax token,8,False,False
+ORBS,orbs,orbs,8,False,False
+DSLA,dsla,dsla protocol,8,False,False
+FLUX,flux,flux,8,True,True
+SAND,sand,the sandbox,8,True,True
+SPI,spi,shopping.io,8,False,False
+GSPI,gspi,spi governance,8,False,False
+XCUR,xcur,curate,8,False,False
+VAI,vai,vaiot,8,False,False
+DODO,dodo,dodo,8,True,True
+PUNDIX,pundix,pundi x ,8,False,False
+BOSON,boson,boson protocol,8,False,True
+HT,ht,huobi token,8,False,False
+PDEX,pdex,polkadex,8,False,False
+LABS,labs,labs group,8,False,False
+STRK,strk,strike,8,False,False
+PHNX,phnx,phoenixdao,8,False,False
+HAI,hai,hacken token,8,False,False
+EQZ,eqz,equalizer,8,False,False
+FORTH,forth,ampleforth governance token,8,False,False
+CARR,carr,carnomaly,8,False,False
+HORD,hord,hord token,8,False,False
+CGG,cgg,chain guardians,8,False,False
+GHX,ghx,gamercoin,8,False,False
+TCP,tcp,the crypto prophecies,8,False,False
+TOWER,tower,tower,8,False,False
+ACE,ace,acent,8,False,False
+STND,stnd,standard,8,False,False
+LOCG,locg,locgame,8,False,False
+FLY,fly,franklin,8,False,False
+CARD,card,cardstack,8,False,False
+XDC,xdc,xdc mainnet,8,False,True
+CWS,cws,crowns,8,False,False
+ADA3S,ada3s,ada 3x short,8,False,False
+FCL,fcl,fractal,8,False,False
+SHIB,shib,shiba inu,8,True,True
+POLX,polx,polylastic,8,False,False
+KDA,kda,kadena,8,True,True
+GOVI,govi,govi,8,False,False
+ICP,icp,internet computer,8,True,True
+CELO,celo,celo,8,True,True
+CUSD,cusd,celo dollar,8,False,False
+STC,stc,student coin,8,False,False
+MATIC,matic,polygon,8,True,True
+OGN,ogn,origin protocol,8,True,True
+OUSD,ousd,origin dollar,8,False,False
+GLQ,glq,graphlinq,8,False,False
+TLOS,tlos,telos,8,False,True
+NIF,nif,unifty,8,False,False
+LNCHX,lnchx,launchx,8,False,False
+YOP,yop,yop,8,False,False
+MXC,mxc,mxctoken,8,False,True
+ERSDL,ersdl,unfederalreservetoken,8,False,False
+ADA3L,ada3l,ada 3x long,8,False,False
+HOTCROSS,hotcross,hot cross,8,False,True
+DPI,dpi,defi pulse index,8,False,False
+HYVE,hyve,hyve,8,False,False
+DAPPX,dappx,dappstore token,8,False,False
+FEAR,fear,fear,8,False,False
+KONO,kono,konomi network,8,False,False
+MAHA,maha,mahadao,8,False,True
+UNO,uno,unore,8,False,True
+PRQ,prq,parsiq,8,False,False
+PYR,pyr,vulcan forged pyr,8,True,True
+GLCH,glch,glitch,8,False,False
+ALBT,albt,allianceblock,8,False,False
+XCAD,xcad,xcad network,8,False,False
+PROM,prom,prom,8,False,False
+EOS3L,eos3l,eos 3x long,8,False,False
+EOS3S,eos3s,eos 3x short,8,False,False
+BCH3L,bch3l,bch 3x long,8,False,False
+BCH3S,bch3s,bch 3x short,8,False,False
+ELON,elon,dogelon,8,True,True
+APL,apl,apollo currency,8,False,False
+DIVI,divi,divi,8,False,False
+VEED,veed,vimworld,8,False,False
+LSS,lss,lossless,8,False,False
+JUP,jup,jupiter,8,False,False
+AGIX,agix,singularitynet token,8,True,True
+DORA,dora,dora factory,8,False,False
+LPOOL,lpool,launchpool token,8,False,False
+VET3L,vet3l,vet 3x long,8,False,False
+VET3S,vet3s,vet 3x short,8,False,False
+LTC3L,ltc3l,ltc 3x long,8,False,False
+LTC3S,ltc3s,ltc 3x short,8,False,False
+ETHO,etho,etho protocol,8,False,False
+POLS,pols,polkastarter,8,True,True
+KOK,kok,kok,8,False,True
+ABBC,abbc,abbc coin,8,False,False
+ZCX,zcx,unizen,8,False,True
+ROSN,rosn,roseon finance,8,False,False
+NORD,nord,nord finance,8,False,False
+GMEE,gmee,gamee,8,False,False
+XAVA,xava,avalaunch,8,False,False
+AI,ai,multiverse,8,False,False
+SFUND,sfund,seedify.fund ,8,False,False
+IOI,ioi,ioi token,8,False,False
+ALPACA,alpaca,alpaca finance,8,False,False
+NFT,nft,apenft,8,True,True
+MNST,mnst,moonstarter,8,False,False
+MEM,mem,meme.com,8,False,False
+DLTA,dlta,delta.theta,8,False,False
+AIOZ,aioz,aioz network,8,True,True
+MARSH,marsh,unmarshal,8,False,False
+OPS,ops,octopus,8,False,False
+CQT,cqt,covalent,8,False,False
+HAPI,hapi,hapi,8,False,False
+GENS,gens,genshiro,8,False,False
+YFDAI,yfdai,yfdai.finance,8,False,False
+FORM,form,formation fi,8,False,False
+MODEFI,modefi,modefi,8,False,False
+ARRR,arrr,pirate chain,8,False,False
+SPHRI,sphri,spherium finance,8,False,False
+CEUR,ceur,celo euro,8,False,False
+ASD,asd,ascendex token,8,False,False
+EXRD,exrd,radix,8,False,False
+NGM,ngm,e-money,8,False,False
+LPT,lpt,livepeer,8,True,True
+STMX,stmx,stormx,8,False,False
+BOND,bond,barnbridge,8,False,True
+2CRZ,2crz,2crazy,8,False,False
+ZORT,zort,zort coin,8,False,False
+SHFT,shft,shyft,8,False,False
+NEAR,near,near protocol,8,True,True
+OOE,ooe,openocean,8,False,False
+DFYN,dfyn,dfyn network,8,False,False
+WCFG,wcfg,wrapped centrifuge,8,False,False
+CFG,cfg,centrifuge,8,False,False
+AXC,axc,axia,8,False,False
+MUSH,mush,mush,8,False,False
+SMT,smt,smartmesh,8,False,False
+AXS,axs,axie infinity,8,True,True
+CLV,clv,clover finance,8,True,True
+ROUTE,route,route,8,False,True
+KAR,kar,karura,8,False,False
+BURP,burp,big town chef,8,False,False
+DPET,dpet,my defi pet,8,False,False
+PMON,pmon,polychain monsters,8,False,False
+ERG,erg,ergo,8,False,False
+LITH,lith,lithium,8,False,False
+SOL,sol,solana,8,True,True
+SLP,slp,smooth love potion,8,True,True
+XCH,xch,chia network,8,False,False
+HAKA,haka,tribeone,8,False,False
+MTL,mtl,metal,8,False,True
+GALAX,gala,gala games,8,True,True
+CIRUS,cirus,cirus,8,False,False
+TXA,txa,txa project,8,False,False
+QI,qi,benqi,8,True,True
+ODDZ,oddz,oddz,8,False,False
+PNT,pnt,pnetwork token,8,False,False
+XPR,xpr,proton,8,True,True
+TRIBE,tribe,tribe,8,False,False
+MOVR,movr,moonriver,8,True,True
+MAKI,maki,makiswap,8,False,False
+QRDO,qrdo,qredo token,8,False,True
+WOO,woo,woo network,8,True,True
+WILD,wild,wilder world,8,False,False
+SDN,sdn,shiden network,8,False,False
+REP,rep,augur,8,False,False
+BNT,bnt,bancor,8,False,False
+OXT,oxt,orchid,8,False,True
+BAL,bal,balancer,8,False,False
+STORJ,storj,storj,8,True,True
+YGG,ygg,yield guild games,8,True,True
+NDAU,ndau,ndau,8,False,False
+SDAO,sdao,singularity dao,8,False,True
+SKL,skl,skale  network,8,True,True
+NMR,nmr,numeraire,8,False,False
+XRP3L,xrp3l,xrp 3x long,8,False,False
+XRP3S,xrp3s,xrp 3x short,8,False,False
+TRB,trb,tellor,8,False,True
+IXS,ixs,ix swap,8,False,False
+PBX,pbx,paribus,8,False,False
+GTC,gtc,gitcoin,8,False,False
+LUNA3L,luna3l,luna 3x long,8,False,False
+LUNA3S,luna3s,luna 3x short,8,False,False
+DYDX,dydx,dydx,8,True,True
+EQX,eqx,eqifi ,8,False,False
+RLC,rlc,iexec rlc,8,True,True
+XNL,xnl,chronicle,8,False,False
+HBAR,hbar,hedera hashgraph,8,True,True
+XPRT,xprt,persistence,8,False,False
+EGLD,egld,multiversx,8,True,True
+FLOW,flow,flow,8,True,True
+DOGE3L,doge3l,doge 3x long,8,False,False
+DOGE3S,doge3s,doge 3x short,8,False,False
+NKN,nkn,nkn,8,True,True
+SOL3L,sol3l,sol 3x long,8,False,False
+SOL3S,sol3s,sol 3x short,8,False,False
+MLN,mln,enzyme,8,False,False
+WNCG,wncg,wrapped ncg,8,False,False
+DMTR,dmtr,dimitra,8,False,False
+LINK3L,link3l,link 3x long,8,False,False
+LINK3S,link3s,link 3x short,8,False,False
+DOT3L,dot3l,dot 3x long,8,False,False
+DOT3S,dot3s,dot 3x short,8,False,False
+KEEP,keep,keep network,8,False,True
+DINO,dino,dinoswap,8,False,False
+CTSI,ctsi,cartesi,8,True,True
+ALICE,alice,myneighboralice,8,True,True
+UMB,umb,umbrella network,8,False,False
+OPUL,opul,opulous,8,False,False
+ILV,ilv,illuvium,8,True,True
+BAND,band,band protocol,8,False,True
+USD,usd,us dollar,2,False,False
+FTT,ftt,ftx token,8,False,True
+DVPN,dvpn,sentinel,8,False,False
+SKU,sku,sakura,8,False,False
+SLIM,slim,solanium,8,False,False
+EDG,edg,edgeware,8,False,False
+DEXE,dexe,dexe,8,False,True
+TLM,tlm,alien worlds,8,True,True
+RMRK,rmrk,rmrk,8,False,False
+RUNE,rune,thorchain,8,True,True
+MATTER,matter,antimatter,8,False,False
+SOV,sov,sovryn,8,False,False
+BMON,bmon,binamon,8,False,False
+C98,c98,coin98,8,True,True
+BLOK,blok,bloktopia,8,False,False
+SOLR,solr,solrazr,8,False,False
+UNI3L,uni3l,uni 3x long,8,False,False
+UNI3S,uni3s,uni 3x short,8,False,False
+ATOM3L,atom3l,atom 3x long,8,False,False
+ATOM3S,atom3s,atom 3x short,8,False,False
+SIENNA,sienna,siennaerc20,8,False,False
+PUSH,push,push protocol,8,False,False
+WSIENNA,wsienna,sienna,8,False,False
+NTVRK,ntvrk,netvrk,8,False,False
+YLD,yld,yield app,8,False,False
+FLAME,flame,firestarter,8,False,False
+FTM3L,ftm3l,ftm 3x long,8,False,False
+FTM3S,ftm3s,ftm 3x short,8,False,False
+AXS3L,axs3l,axs 3x long,8,False,False
+AXS3S,axs3s,axs 3x short,8,False,False
+AGLD,agld,adventure gold,8,False,False
+NAKA,naka,nakamoto.games,8,False,False
+REEF,reef,reef,8,False,True
+TORN,torn,tornado cash,8,False,False
+TIDAL,tidal,tidal finance,8,False,False
+TVK,tvk,the virtua kolect,8,False,True
+INJ,inj,injective,8,True,True
+NFTB,nftb,nftb,8,False,False
+MATIC3L,matic3l,matic 3x long,8,False,False
+MATIC3S,matic3s,matic 3x short,8,False,False
+BNB3L,bnb3l,bnb 3x long,8,False,False
+BNB3S,bnb3s,bnb 3x short,8,False,False
+ALPHA,alpha,stella,8,False,True
+BADGER,badger,badger dao,8,False,True
+VEGA,vega,vega protocol,8,False,False
+ZKT,zkt,zktube,8,False,False
+AR,ar,arweave,8,True,True
+XVS,xvs,venus,8,False,False
+GHST,ghst,aavegotchi,8,False,True
+PERP,perp,perpetual protocol,8,False,True
+SCLP,sclp,scallop,8,False,False
+JASMY,jasmy,jasmycoin,8,True,True
+CPOOL,cpool,clearpool,8,False,False
+LTO,lto,lto network,8,True,True
+SUPER,super,superfarm,8,True,True
+BZRX,bzrx,bzx protocol,8,False,False
+BASIC,basic,basic,8,False,False
+AURY,aury,aurory,8,False,False
+HERO,hero,metahero,8,False,True
+XED,xed,exeedme,8,False,False
+SWASH,swash,swash token,8,False,False
+NEAR3L,near3l,near 3x long,8,False,False
+NEAR3S,near3s,near 3x short,8,False,False
+SUSHI3L,sushi3l,sushi 3x long,8,False,False
+SUSHI3S,sushi3s,sushi 3x short,8,False,False
+DREAMS,dreams,dreams quest,8,False,False
+MTRG,mtrg,meter,8,False,True
+QUICK,quick,quickswap,8,False,False
+TRU,tru,truefi,8,False,True
+WRX,wrx,wazirx,8,False,True
+TKO,tko,tokocrypto,8,False,False
+EPS,eps,ellipsis,8,False,False
+DATA,data,streamr,8,False,False
+ISP,isp,ispolink token,8,False,False
+CERE,cere,cere network,8,False,False
+SHILL,shill,project seed,8,False,True
+HEGIC,hegic,hegic,8,False,False
+ERN,ern,ethernity chain,8,True,True
+PAXG,paxg,pax gold,8,False,True
+AAVE3L,aave3l,aave 3x long,8,False,False
+AUDIO,audio,audius,8,True,True
+AAVE3S,aave3s,aave 3x short,8,False,False
+SAND3L,sand3l,sand 3x long,8,False,False
+SAND3S,sand3s,sand 3x short,8,False,False
+FTG,ftg,ongo,8,False,False
+AUD,aud,australian dollar,2,False,False
+BGN,bgn,bulgarian lev,2,False,False
+BRL,brl,brazilian real,2,False,False
+CAD,cad,canadian dollar,2,False,False
+CHF,chf,swiss franc,2,False,False
+CZK,czk,czech koruna,2,False,False
+DKK,dkk,danish krone,2,False,False
+EUR,eur,euro,2,False,False
+GBP,gbp,pound sterling,2,False,False
+HKD,hkd,hong kong dollar,2,False,False
+HRK,hrk,croatian kuna,2,False,False
+INR,inr,indian rupee,2,False,False
+JPY,jpy,yen,2,False,False
+KZT,kzt,tenge,2,False,False
+MXN,mxn,mexican peso,2,False,False
+MYR,myr,malaysian ringgit,2,False,False
+NGN,ngn,naira,2,False,False
+PLN,pln,zloty,2,False,False
+RON,ron,new ley,2,False,False
+RUB,rub,russian ruble,2,False,False
+SEK,sek,swedish krona,2,False,False
+SGD,sgd,singapore dollar,2,False,False
+THB,thb,baht,2,False,False
+TWD,twd,new taiwan dollar,2,False,False
+UAH,uah,hryvnia,2,False,False
+ZAR,zar,rand,2,False,False
+XTM,xtm,torum,8,False,False
+ENS,ens,ethereum name service,8,True,True
+ATA,ata,automata network,8,False,False
+FXS,fxs,frax share,8,True,True
+MNW,mnw,morpheus.network,8,False,False
+CWAR,cwar,cryowar,8,False,False
+VXV,vxv,vector space biosciences,8,False,False
+DPR,dpr,deeper network,8,False,False
+SWP,swp,kava swap,8,False,False
+PBR,pbr,polkabridge,8,False,False
+WNXM,wnxm,wrapped nxm,8,False,False
+ANT,ant,aragon,8,True,True
+ADX,adx,adex,8,False,False
+TWT,twt,trust wallet token,8,False,False
+OM,om,mantra dao,8,False,False
+AVAX3L,avax3l,avax 3x long,8,False,False
+AVAX3S,avax3s,avax 3x short,8,False,False
+MANA3L,mana3l,mana 3x long,8,False,False
+MANA3S,mana3s,mana 3x short,8,False,False
+GLM,glm,golem,8,False,False
+NUM,num,numbers protocol,8,False,True
+BAKE,bake,bakerytoken,8,False,True
+MONI,moni,monsta infinite,8,False,False
+TRADE,trade,polytrade,8,False,False
+VLX,vlx,velas,8,False,False
+1EARTH,1earth,earthfund,8,False,True
+KAVA,kava,kava,8,True,True
+LIKE,like,only1,8,False,False
+LIT,lit,litentry,8,False,True
+MFT,mft,hifi finance,8,False,True
+SFP,sfp,safepal,8,False,True
+BURGER,burger,burger swap,8,False,True
+ILA,ila,infinite launch,8,False,False
+CREAM,cream,cream finance,8,False,True
+RSR,rsr,reserve rights,8,True,True
+GODS,gods,gods unchained,8,False,True
+IMX,imx,immutable x,8,True,True
+KMA,kma,calamari,8,False,False
+SRM,srm,serum,8,False,True
+POLC,polc,polkacity,8,False,True
+KIN,kin,kin,8,False,False
+XTAG,xtag,xhashtag,8,False,False
+VR,vr,victoria vr,8,False,False
+MNET,mnet,mine network,8,False,False
+NGC,ngc,naga coin,8,False,False
+GALAX3L,galax3l,galax 3x long,8,False,False
+GALAX3S,galax3s,galax 3x short,8,False,False
+NU,nu,nucypher,8,False,True
+HARD,hard,kava lend,8,False,False
+UNIC,unic,unicly,8,False,False
+POND,pond,marlin,8,True,True
+MDX,mdx,mdex,8,False,False
+EPIK,epik,epik prime,8,False,True
+NGL,ngl,gold fever,8,False,False
+KDON,kdon,don-key,8,False,False
+PEL,pel,propel,8,False,False
+KLAY,klay,klaytn,8,False,True
+LINA,lina,linear,8,True,True
+CREDI,credi,credefi,8,False,False
+TRVL,trvl,dtravel,8,False,False
+ARKER,arker,arker,8,False,False
+XEC,xec,ecash,8,False,False
+BONDLY,bondly,forj(bondly),8,False,False
+LACE,lace,lovelace world,8,False,False
+HEART,heart,humans,8,False,True
+UNB,unb,unbound,8,False,False
+H3RO3S,h3ro3s,h3ro3s,8,False,False
+FORWARD,forward,forward protocol,8,False,False
+GAFI,gafi,gamefi,8,False,False
+KOL,kol,kollect,8,False,True
+CHMB,chmb,chumbi valley,8,False,False
+FALCONS,falcons,falconswaps token,8,False,False
+UFO,ufo,ufo gaming,8,False,True
+GEEQ,geeq,geeq,8,False,False
+RACEFI,racefi,racefi,8,False,False
+ORC,orc,orbit chain,8,False,False
+PEOPLE,people,constitutiondao,8,True,True
+ADS,ads,alkimi,8,False,False
+OOKI,ooki,ooki,8,False,False
+SOS,sos,opendao,8,False,True
+WHALE,whale,whale,8,False,False
+IOTA,iota,iota,8,False,True
+CWEB,cweb,coinweb,8,False,True
+HNT,hnt,helium,8,False,True
+GGG,ggg,good games guild,8,False,False
+CLH,clh,clearinghouse token,8,False,False
+REVU,revu,revuto,8,False,False
+PLGR,plgr,pledge,8,False,False
+GLMR,glmr,glimmer,8,True,True
+CTC,ctc,creditcoin,8,False,False
+LOVE,love,deesse,8,False,False
+GARI,gari,gari network,8,False,True
+FRR,frr,frontrow,8,False,False
+ASTR,astr,astar network,8,False,True
+ERTHA,ertha,ertha,8,False,False
+FCON,fcon,space falcon,8,False,False
+ACA,aca,acala,8,False,True
+MTS,mts,metastrike,8,False,False
+ROAR,roar,alphadex,8,False,False
+HBB,hbb,hubble protocol,8,False,False
+SURV,surv,survival game online,8,False,False
+AMP,amp,amp,8,False,False
+CVX,cvx,convex finance,8,False,False
+MJT,mjt,mojitoswap,8,False,False
+XNO,xno,nano,8,False,False
+SHX,shx,stronghold token,8,False,False
+STARLY,starly,starly,8,False,False
+ONSTON,onston,onston,8,False,True
+WMT,wmt,world mobile token,8,False,False
+RANKER,ranker,rankerdao,8,False,True
+LAVAX,lavax,lavax labs,8,False,False
+MARS4,mars4,mars4,8,False,False
+METIS,metis,metis,8,False,False
+WAL,wal,the wasted lands,8,False,False
+BULL,bull,bullieverse,8,False,False
+SON,son,souni,8,False,False
+MELOS,melos,melos studio,8,False,False
+APE,ape,apecoin,8,True,True
+VSYS,vsys,v systems,8,False,False
+ABT,abt,arcblock,8,False,False
+ACAT,acat,alphacat,8,False,False
+ACT,act,achain,8,False,False
+ADB,adb,adbank,8,False,False
+AERGO,aergo,aergo,8,False,False
+AGI,agi,singularitynet,8,False,False
+AION,aion,aion,8,False,True
+AIX,aix,aigang,8,False,False
+AMB,amb,airdao,8,False,True
+AOA,aoa,aurora (aoa),8,False,False
+APH,aph,aphelion,8,False,False
+ARN,arn,aeron,8,False,False
+ARY,ary,block array,8,False,False
+AVA,ava,ava,8,False,True
+AXPR,axpr,axpire,8,False,False
+BAX,bax,babb,8,False,False
+BCD,bcd,bitcoin diamond,8,False,False
+BCH,bch,bitcoin cash,8,True,True
+BCHABC,bchabc,bchabc,8,True,False
+BCHSV,bsv,bchsv,8,True,True
+BCPT,bcpt,blockmason,8,False,False
+BHC,bhc,black hole coin,8,False,False
+BNTY,bnty,bounty0x,8,False,False
+BOS,bos,boscoin,8,False,False
+BPT,bpt,bux platform token,8,False,False
+BRD,brd,bread,8,False,False
+BTC,btc,bitcoin,8,True,True
+BTCP,btcp,bitcoin private,8,False,False
+BTG,btg,bitcoin gold,8,False,False
+BTM,btm,bytom,8,False,False
+BU,bu,bumo,8,False,False
+CAG,cag,change,8,False,False
+CAN,can,canya,8,False,False
+CAPP,capp,cappasity,8,False,False
+CAT,cat,bitclave,8,False,False
+CBC,cbc,cbc.network,8,False,False
+CFD,cfd,confido,8,False,False
+CHP,chp,coinpoker,8,False,False
+CHSB,chsb,swissborg,8,False,False
+COFI,cofi,coinfi,8,False,False
+COSM,cosm,cosmo coin,8,False,False
+COV,cov,covesting,8,False,False
+CPC,cpc,cpchain,8,False,True
+CRPT,crpt,crypterium,8,False,False
+CS,cs,credits,8,False,True
+CTR,ctr,centra,8,False,False
+CV,cv,carvertical,8,False,False
+CVC,cvc,civic,8,False,False
+CXO,cxo,cargox,8,False,False
+DACC,dacc,decentralized accessible content chain,8,False,False
+DADI,dadi,edge,8,False,False
+DAG,dag,constellation,8,False,True
+DAI,dai,dai,8,False,True
+DASH,dash,dash,8,True,True
+DAT,dat,datum,8,False,False
+DATX,datx,datx,8,False,False
+DBC,dbc,deepbrain chain,8,False,False
+DCC,dcc,distributed credit chain,8,False,False
+DCR,dcr,decred,8,False,False
+DEB,deb,debitum network,8,False,False
+DENT,dent,dent,8,False,False
+DGB,dgb,digibyte,8,True,True
+DNA,dna,encrypgen,8,False,False
+DOCK,dock,dock,8,False,False
+DRGN,drgn,dragonchain,8,False,False
+DTA,dta,data,8,False,False
+EBTC,ebtc,ebitcoin,8,False,False
+EDN,edn,edenchain,8,False,False
+EDR,edr,endor protocol,8,False,False
+EGT,egt,egretia,8,False,False
+ELA,ela,elastos,8,False,True
+ELEC,elec,electrify.asia,8,False,False
+ELF,elf,aelf,8,False,False
+ELIX,elix,elixir,8,False,False
+ENJ,enj,enjin coin,8,True,True
+EOS,eos,eos,8,True,True
+EPRX,eprx,eprx,8,False,False
+ETC,etc,ethereum classic,8,True,True
+ETF,etf,ethereum fog,8,False,False
+ETH,eth,ethereum,8,True,True
+ETN,etn,electroneum,8,False,True
+EVX,evx,everex,8,False,False
+EXY,exy,experty,8,False,False
+FLIXX,flixx,flixxo,8,False,False
+FOTA,fota,fortuna,8,False,False
+FTM,ftm,fantom,8,True,True
+GALA,galadelisted,galadelisted,8,False,False
+GAS,gas,neogas,8,False,False
+GAT,gat,global awards token,8,False,False
+GGC,ggc,gramgold coin,8,False,False
+GLA,gla,gladius token,8,False,False
+GMB,gmb,gamb,8,False,False
+GO,go,gochain,8,False,False
+GOD,god,bitcoin god,8,False,False
+GVT,gvt,genesis vision,8,False,False
+HAT,hat,hawala.today,8,False,False
+HC,hc,hc,8,False,False
+HKN,hkn,hacken,8,False,False
+HPB,hpb,high performance blockch,8,False,False
+HST,hst,horizon state,8,False,False
+IHT,iht,i-house token,8,False,False
+ING,ing,iungo,8,False,False
+INS,ins,insolar,8,False,False
+IOG,iog,playgroundz,8,False,False
+IOST,iost,internet of services,8,True,True
+IOTX,iotx,iotex,8,True,True
+ITC,itc,iot chain,8,False,False
+J8T,j8t,jet8,8,False,False
+JNT,jnt,jibrel network,8,False,False
+KAT,kat,kambria,8,False,False
+KCS,kcs,kucoin token,8,True,False
+KEY,key,selfkey,8,False,False
+KICK,kick,kicktoken,8,False,False
+KNC,knc,kyber network,8,False,False
+LA,la,latoken,8,False,False
+LALA,lala,lala world,8,False,False
+LEND,lend,aave,8,False,False
+LOC,loc,locktrip,8,False,False
+LOCI,loci,locicoin,8,False,False
+LOOM,loom,loom network,8,False,False
+LSK,lsk,lisk,8,False,False
+LTC,ltc,litecoin,8,True,True
+LYM,lym,lympo,8,False,False
+MAN,man,matrix ai network,8,False,True
+MANA,mana,decentraland,8,True,True
+MCT,mct,master contract token ,8,False,False
+MEE,mee,coinmeet,8,False,False
+MEET,meet,coinmeet,8,False,False
+META,meta,metadium,8,False,False
+MKR,mkr,maker,8,True,True
+MOBI,mobi,mobius,8,False,False
+MOD,mod,modum,8,False,False
+MTC,mtc,doc.com,8,False,False
+MTH,mth,monetha,8,False,False
+MTN,mtn,medicalchain,8,False,False
+MVP,mvp,merculet,8,False,False
+MWAT,mwat,restart energy,8,False,False
+NANO,nano,nano,8,False,False
+NEBL,nebl,neblio,8,False,False
+NEO,neo,neo,8,True,True
+NULS,nuls,nuls,8,False,True
+OCN,ocn,odyssey,8,False,False
+OLT,olt,oneledger,8,False,True
+OMG,omg,omisego,8,True,True
+OMX,omx,shivom,8,False,False
+ONG,ong,ong,8,False,False
+ONION,onion,deeponion,8,False,False
+ONOT,onot,ono,8,False,False
+ONT,ont,ontology,8,False,True
+OPEN,open,open platform,8,False,False
+OPQ,opq,opacity,8,False,False
+PAL,pal,pal network,8,False,False
+PARETO,pareto,pareto rewards,8,False,False
+PAX,pax,paxos standard,8,False,False
+PAY,pay,tenxpay,8,False,False
+PBL,pbl,publica,8,False,False
+PHX,phx,red pulse phoenix,8,False,False
+PLAY,play,herocoin,8,False,False
+POE,poe,po.et,8,False,False
+POLL,poll,clearpoll,8,False,False
+POLY,poly,polymath,8,False,False
+POWR,powr,power ledger,8,False,True
+PPT,ppt,populous,8,False,False
+PRL,prl,oyster pearl,8,False,False
+PURA,pura,pura,8,False,False
+QKC,qkc,quarkchain,8,False,False
+QLC,qlc,qlink,8,False,False
+QSP,qsp,quantstamp,8,False,False
+QTUM,qtum,qtum,8,False,False
+R,rev,revain,8,False,True
+RDN,rdn,raiden network,8,False,False
+REQ,req,request,8,True,True
+RHOC,rhoc,rchain,8,False,False
+SAY,say,spherepay,8,False,False
+SHL,shl,shl,8,False,False
+SNC,snc,suncontract,8,False,False
+SNM,snm,sonm,8,False,False
+SNOV,snov,snovio,8,False,False
+SNT,snt,status,8,False,False
+SNX,snx,synthetix network token,8,True,True
+SOUL,soul,phantasma,8,False,False
+SPF,spf,sportyco,8,False,False
+SPHTX,sphtx,sophiatx,8,False,False
+SRN,srn,sirin labs token,8,False,False
+STK,stk,stk,8,False,False
+STQ,stq,storiqa,8,False,False
+STX_OLD,stx_old,stox,8,False,False
+SUB,sub,substratum,8,False,False
+SUSD,susd,susd,8,False,True
+TEL,tel,telcoin,8,False,True
+TFD,tfd,te-food,8,False,False
+TFL,tfl,trueflip,8,False,False
+TIME,time,chrono.tech,8,False,False
+TIO,tio,trade token,8,False,False
+TKY,tky,thekey,8,False,False
+TMT,tmt,traxia,8,False,False
+TNC,tnc,trinity,8,False,False
+TOMO,tomo,tomochain,8,False,False
+TRAC,trac,origintrail,8,False,False
+TRX,trx,tron,8,True,True
+TUSD,tusd,trueusd,8,False,False
+UKG,ukg,unikoin gold,8,False,False
+USDC,usdc,usd coin,8,True,True
+USDT,usdt,tether,8,True,True
+USE,use,usechain,8,False,False
+UT,ut,ulordtoken,8,False,True
+UTK,utk,utrust,8,False,False
+VET,vet,vechain,8,True,True
+VNX,vnx,visionx,8,False,False
+VTHO,vtho,vethor token,8,False,False
+WAN,wan,wanchain,8,False,False
+WAX,waxp,wax,8,True,True
+WPR,wpr,wepower,8,False,False
+WTC,wtc,walton,8,False,True
+XAS,xas,asch,8,False,False
+XLM,xlm,stellar,8,True,True
+XLR,xlr,solaris,8,False,False
+XRP,xrp,xrp,8,True,True
+XYO,xyo,xyo network,8,False,True
+ZIL,zil,zilliqa,8,True,True
+ZINC,zinc,zinc,8,False,False
+ZPT,zpt,zeepin,8,False,False
+ZRX,zrx,0x,8,False,True
+GRIN,grin,grin,8,False,True
+SOLVE,solve,solve,4,False,False
+BTT,btt,bittorrent (new),8,True,True
+MHC,mhc,metahash,4,False,True
+GMT,gmt,stepn,8,True,True
+NOK,nok,norwegian krone,2,False,False
+SAR,sar,saudi riyal,2,False,False
+AED,aed,uae dirham,2,False,False
+ILS,ils,new israeli sheqel,2,False,False
+NZD,nzd,new zealand dollar,2,False,False
+PHP,php,philippine peso,2,False,False
+COP,cop,colombian peso,2,False,False
+IDR,idr,rupiah,2,False,False
+VND,vnd,dong,2,False,False
+KRW,krw,won,2,False,False
+ARS,ars,argentine peso,2,False,False
+DZD,dzd,algerian dinar,2,False,False
+BICO,bico,biconomy,8,False,True
+STG,stg,stargate finance,8,False,True
+LMR,lmr,lumerin,8,False,False
+LOKA,loka,league of kingdoms arena,8,False,False
+URUS,urus,aurox,8,False,False
+BNC,bnc,bifrost,8,False,False
+JAM,jam,geojam,8,False,False
+LBP,lbp,launchblock,8,False,False
+CFX,cfx,conflux,8,True,True
+XCN,xcn,onyxcoin,8,False,False
+KP3R,kp3r,keep3rv1,8,False,False
+LOOKS,looks,looksrare,8,False,False
+UPO,upo,uponly,8,False,False
+INDI,indi,indigg,8,False,False
+TITAN,titan,titanswap,8,False,False
+SPELL,spell,spell token,8,False,False
+SLCL,slcl,solcial,8,False,False
+RPC,rpc,ripio coin,8,False,False
+CEEK,ceek,ceek vr,8,False,False
+T,t,threshold,8,False,False
+BETA,beta,beta finance,8,False,False
+VEMP,vemp,vemp,8,False,False
+NHCT,nhct,hurricane nft,8,False,False
+PIKASTER,pikaster,pikaster,8,False,False
+FRA,fra,findora,8,False,False
+ARNM,arnm,arenum,8,False,False
+VISION,vision,visiongame,8,False,False
+ALPINE,alpine,alpine f1 team fan token,8,False,False
+COCOS,cocos,cocos-bcx,8,False,True
+BNX,bnx,binaryx,8,False,False
+ZBC,zbc,zebec protocol,8,False,False
+WOOP,woop,woonkly power,8,False,False
+NYM,nym,nym,8,False,True
+VOXEL,voxel,voxies,8,False,False
+PSTAKE,pstake,pstake finance,8,False,False
+SPA,spa,sperax,8,False,True
+RACA,raca,radio caca,8,False,False
+DAR,dar,mines of dalarnia,8,True,True
+SYNR,synr,mobland,8,False,False
+MV,mv,gensokishi metaverse,8,False,False
+XDEFI,xdefi,xdefi wallet,8,False,False
+HAWK,hawk,hawksight,8,False,False
+SWFTC,swftc,swftcoin,8,False,False
+XWG,xwg,x world games,8,False,False
+IDEX,idex,idex,8,False,False
+PLATO,plato,plato farm,8,False,False
+BRWL,brwl,blockchain brawlers,8,False,False
+TAUM,taum,orbitau taureum,8,False,False
+CELR,celr,celer network,8,False,True
+ITAMCUBE,itamcube,cube,8,False,False
+AURORA,aurora,aurora,8,False,False
+ELITEHERO,elitehero,cebg,8,False,False
+POSI,posi,position exchange,8,False,False
+SIN,sin,sinverse,8,False,False
+COOHA,cooha,coolhash,8,False,False
+EPK,epk,epik protocol,8,False,False
+PLD,pld,plutonians,8,False,False
+EPX,epx,ellipsis x,8,False,False
+PSL,psl,pastel,8,False,False
+SYS,sys,syscoin,8,False,False
+OVR,ovr,ovr,8,False,False
+PKF,pkf,polkafoundry,8,False,False
+DG,dg,decentral games,8,False,False
+BRISE,brise,bitgert,8,False,False
+PLY,ply,aurigami,8,False,False
+GST,gst,green satoshi token,8,False,False
+AKT,akt,akash network,8,False,False
+FSN,fsn,fusion,8,False,False
+GAL,gal,galxe,8,True,True
+FITFI,fitfi,step app,8,True,True
+BSW,bsw,biswap,8,False,False
+H2O,h2o,h2o dao,8,False,False
+AUSD,ausd,acala dollar,8,False,False
+GMM,gmm,gamium,8,False,False
+FCD,fcd,freshcut diamond,8,False,False
+BOBA,boba,boba network,8,False,False
+XRACER,xracer,xrush,8,False,False
+BFC,bfc,bifrost,8,False,False
+BIFI,bifi,bifi,8,False,False
+KARA,kara,karastar,8,False,False
+DFA,dfa,define,8,False,False
+KYL,kyl,kylin network,8,False,False
+CELT,celt,celestial,8,False,False
+MBL,mbl,moviebloc,8,False,False
+DUSK,dusk,dusk,8,False,True
+CCD,ccd,concordium,8,False,False
+USDD,usdd,decentralized usd,8,True,True
+MBOX,mbox,mobox,8,False,False
+SCRT,scrt,secret,8,False,False
+MLS,mls,wingoal,8,False,False
+AFK,afk,afkdao,8,False,False
+ACH,ach,alchemy pay,8,False,True
+APE3L,ape3l,ape 3x long,8,False,False
+APE3S,ape3s,ape 3x short,8,False,False
+GMT3L,gmt3l,gmt 3x long,8,False,False
+GMT3S,gmt3s,gmt 3x short,8,False,False
+IHC,ihc,inflation hedging coin,8,False,False
+STORE,store,bit.store,8,False,False
+DOSE,dose,dose,8,False,False
+LUNC,lunc,terra classic,8,True,True
+USTC,ustc,terra classic usd,8,False,False
+JASMY3L,jasmy3l,jasmy 3x long,8,False,False
+JASMY3S,jasmy3s,jasmy 3x short,8,False,False
+SRBS,srbs,super rare ball shares,8,False,False
+RBS,rbs,rare ball shares,8,False,False
+IDLENFT,idlenft,idlestoneage,8,False,False
+OP,op,optimism,8,True,True
+EVER,ever,everscale,8,False,False
+ICX,icx,icon,8,False,True
+MOOV,moov,dotmoovs,8,False,False
+USDP,usdp,pax dollar,8,False,False
+WELL,well,moonwell,8,False,False
+CSPR,cspr,casper,8,False,True
+FORT,fort,forta,8,False,False
+REV3L,rev3l,rev3al,8,False,False
+WEMIX,wemix,wemix,8,False,False
+OGV,ogv,origin dollar governance,8,False,False
+OLE,ole,openleverage,8,False,False
+LDO,ldo,lido dao,8,False,True
+CULT,cult,cult dao,8,False,False
+RBP,rbp,rare ball portion,8,False,False
+SRBP,srbp,super rare ball portion,8,False,False
+HIBAYC,hibayc,hibayc,8,False,False
+HIPUNKS,hipunks,hipunks,8,False,False
+BUSD,busd,binance usd,8,False,True
+FIDA,fida,bonfida,8,False,False
+WOMBAT,wombat,wombat,8,False,False
+FT,ft,fracton protocol,8,False,False
+HIENS4,hiens4,hiens4,8,False,False
+EGAME,egame,every game,8,False,False
+STEPWATCH,stepwatch,stepwatch,8,False,False
+HISAND33,hisand33,hisand33,8,False,False
+XRD,xrd,radix,8,False,True
+PIKASTER2,pikaster2,pikaster,8,False,False
+DC,dc,dogechain,8,False,True
+HIENS3,hiens3,hiens3,8,False,False
+NEER,neer,metaverse.network & bit.country,8,False,False
+RVN,rvn,ravencoin,8,False,False
+MC,mc,mechaverse,8,False,False
+PEEL,peel,meta apes,8,False,False
+SDL,sdl,saddle dao,8,False,False
+HIODBS,hiodbs,hiodbs,8,False,False
+SWEAT,sweat,sweat economy,8,False,False
+CMP,cmp,caduceus,8,False,False
+PIX,pix,pixie,8,False,False
+HIDOODLES,hidoodles,hidoodles,8,False,False
+MPLX,mplx,metaplex,8,False,False
+ETHW,ethw,ethpow,8,True,True
+QUARTZ,quartz,sandclock,8,False,False
+PUMLX,pumlx,pumlx,8,False,False
+HIMAYC,himayc,himayc,8,False,False
+ACQ,acq,acquire.fi,8,False,False
+RED,red,red token,8,False,False
+AOG,aog,ageofgods,8,False,False
+PRMX,prmx,prema,8,False,False
+XETA,xeta,xana,8,False,False
+00,00,p00ls,8,False,False
+GEM,gem,gemie,8,False,False
+HIOD,hiod,hiod,8,False,False
+KICKS,kicks,getkicks,8,False,False
+ASTROBOY,astroboy,mc astroboy,8,False,False
+DERC,derc,derace,8,False,False
+TRIBL,tribl,tribal token,8,False,False
+P00LS,p00ls,p00ls,8,False,False
+GMX,gmx,gmx,8,False,True
+POKT,pokt,pocket network,8,False,False
+EFI,efi,efinity,8,False,False
+APT,apt,aptos,8,True,True
+BBC,bbc,bull btc club,8,False,False
+EUL,eul,euler,8,False,False
+TON,ton,ton,8,True,True
+HIMEEBITS,himeebits,himeebits,8,False,False
+HISQUIGGLE,hisquiggle,hisquiggle,8,False,False
+PIAS,pias,pias,8,False,False
+XCV,xcv,xcarnival,8,False,False
+ECOX,ecox,eco,8,False,False
+HFT,hft,hashflow,8,False,True
+MM,mm,metamecha,8,False,False
+HIFIDENZA,hifidenza,hifidenza,8,False,False
+AZERO,azero,aleph zero,8,False,True
+BEAT,beat,metabeat,8,False,False
+CLUB,club,club coin,8,False,False
+MATCH,match,matching game,8,False,False
+NRFB,nrfb,nurifootball,8,False,False
+HIGAZERS,higazers,higazers,8,False,False
+NAVI,navi,atlas navi,8,False,False
+HIPENGUINS,hipenguins,hipenguins,8,False,False
+CARE,care,care,8,False,False
+ALT,alt,aptoslaunchtoken,8,False,False
+HICLONEX,hiclonex,hiclonex,8,False,False
+OAS,oas,oasys,8,False,False
+PRIMAL,primal,primal,8,False,False
+HICOOLCATS,hicoolcats,hicoolcats,8,False,False
+HIAZUKI,hiazuki,hiazuki,8,False,False
+TEM,tem,temdao,8,False,False
+HIFLUF,hifluf,hifluf,8,False,False
+OSMO,osmo,osmo,8,False,False
+FLR,flr,flare network,8,False,True
+HIBIRDS,hibirds,himoonbirds,8,False,False
+BDX,bdx,beldex,8,False,False
+HIMFERS,himfers,himfers,8,False,False
+SIMP,simp,so-col,8,False,False
+MAGIC,magic,magic,8,False,True
+ASTRA,astra,astra protocol,8,False,True
+HIVALHALLA,hivalhalla,hivalhalla,8,False,False
+SQUAD,squad,squad,8,False,False
+RPL,rpl,rocket pool,8,False,True
+HIRENGA,hirenga,hirenga,8,False,False
+HIGH,high,highstreet,8,False,False
+KING,king,kingdomverse,8,False,False
+OP2L,op2l,op 2x long,8,False,False
+OP2S,op2s,op 2x short,8,False,False
+SHIB2L,shib2l,shib 2x long,8,False,False
+SHIB2S,shib2s,shib 2x short,8,False,False
+APT2L,apt2l,apt 2x long,8,False,False
+APT2S,apt2s,apt 2x short,8,False,False
+HIUNDEAD,hiundead,hiundead,8,False,False
+AGIX2L,agix2l,agix 2x long,8,False,False
+AGIX2S,agix2s,agix 2x short,8,False,False
+GRT2L,grt2l,grt 2x long,8,False,False
+GRT2S,grt2s,grt 2x short,8,False,False
+GFT,gft,gifto,8,False,False
+FLOKI,floki,floki,8,True,True
+HIFRIENDS,hifriends,hifriends,8,False,False
+BLUR,blur,blur,8,True,True
+WAXL,waxl,axelar,8,False,False
+SSV,ssv,ssv.network,8,False,True
+IGU,igu,iguverse,8,False,False
+ACS,acs,access protocol,8,False,True
+BLUR2L,blur2l,blur 2x long,8,False,False
+BLUR2S,blur2s,blur 2x short,8,False,False
+CSIX,csix,carbon,8,False,False
+HISEALS,hiseals,hiseals,8,False,False
+CFX2L,cfx2l,cfx 2x long,8,False,False
+CFX2S,cfx2s,cfx 2x short,8,False,False
+SIDUS,sidus,sidus,8,False,False
+GOAL,goal,topgoal,8,False,False
+SYN,syn,synapse,8,False,False
+GRAIL,grail,camelot,8,False,False
+DPX,dpx,dopex,8,False,False
+RDNT,rdnt,radiant,8,False,True
+AIPAD,aipad,aipad,8,False,False
+GNS,gns,gains network,8,False,False
+HIBEANZ,hibeanz,hibeanz,8,False,False
+BLZ,blz,bluzelle,8,False,False
+MINA,mina,mina,8,False,True
+NXRA,nxra,allianceblock nexera,8,False,False
+HALO,halo,halo,8,False,False
+HMND,hmnd,humanode,8,False,False
+HIFI,hifi,hifi finance,8,False,False
+NOM,nom,onomy protocol,8,False,False
+LQTY,lqty,liquity,8,False,True
+STRAX,strax,stratis,8,False,False
+ARB,arb,arbitrum,8,True,True
+ID,id,space id,8,False,True
+ID3L,id3l,id 3x long,8,False,False
+ID3S,id3s,id 3x short,8,False,False
+ARB3S,arb3s,arb 3x short,8,False,False
+ARB3L,arb3l,arb 3x long,8,False,False
+BTCUP,btcup,btc 2-4 long,8,False,False
+BTCDOWN,btcdown,btc 2-4 short,8,False,False
+ETHUP,ethup,eth 2-4 long,8,False,False
+ETHDOWN,ethdown,eth 2-4 short,8,False,False
+AOS,aos,aos,8,False,False
+MYRIA,myria,myria,8,False,False
+SD,sd,stader,8,False,False
+RLTM,rltm,reality metaverse,8,False,False
+KAGI,kagi,delysium,8,False,False
+CGPT,cgpt,chaingpt,8,False,False
+SXPUP,sxpup,sxp 2-4 long,8,False,False
+SXPDOWN,sxpdown,sxp 2-4 short,8,False,False
+MASKUP,maskup,mask 2-4 long,8,False,False
+MASKDOWN,maskdown,mask 2-4 short,8,False,False
+DYDXUP,dydxup,dydx 2-4 long,8,False,False
+DYDXDOWN,dydxdown,dydx 2-4 short,8,False,False
+OTK,otk,octo gaming,8,False,False
+RNDRUP,rndrup,rndr 2-4 long,8,False,False
+RNDRDOWN,rndrdown,rndr 2-4 short,8,False,False
+STXUP,stxup,stx 2-4 long,8,False,False
+STXDOWN,stxdown,stx 2-4 short,8,False,False
+LINAUP,linaup,lina 2-4 long,8,False,False
+LINADOWN,linadown,lina 2-4 short,8,False,False
+ZPAY,zpay,zoidpay,8,False,False
+GPT,gpt,cryptogpt token,8,False,False
+PZP,pzp,playzap,8,False,False
+BABYDOGE,babydoge,baby doge coin,12,False,True
+INJUP,injup,inj 2-4 long,8,False,False
+INJDOWN,injdown,inj 2-4 short,8,False,False
+ETCUP,etcup,etc 2-4 long,8,False,False
+ETCDOWN,etcdown,etc 2-4 short,8,False,False
+LOCUS,locus,locus chain,8,False,False
+IRON,iron,iron,8,False,False
+IZI,izi,izumi finance,8,False,False
+SUI,sui,sui,8,True,True
+SUI3L,sui3l,sui 3x long,8,False,False
+SUI3S,sui3s,sui 3x short,8,False,False
+KAS,kas,kaspa,8,False,True
+CTSIUP,ctsiup,ctsi 2-4 long,8,False,False
+CTSIDOWN,ctsidown,ctsi 2-4 short,8,False,False
+ICPUP,icpup,icp 2-4 long,8,False,False
+ICPDOWN,icpdown,icp 2-4 short,8,False,False
+PEPE,pepe,pepe,10,True,True
+PEPEUP,pepeup,pepe 2-4 long,8,False,False
+PEPEDOWN,pepedown,pepe 2-4 short,8,False,False
+CETUS,cetus,cetus protocol,8,False,True
+SUIP,suip,suipad,8,False,False
+AIDOGE,aidoge,aidoge,12,False,False
+WOJAK,wojak,wojak coin,8,False,False
+BOB,bob,bob,8,False,False
+MONG,mong,mongcoin,11,False,False
+TURBO,turbo,turbo,8,False,False
+KARATE,karate,karate,8,False,False
+WLKN,wlkn,walken,8,False,False
+LMWR,lmwr,limewire,8,False,False
+TURBOS,turbos,turbos finance,8,False,False
+FLOKIUP,flokiup,floki 2-4 long,8,False,False
+FLOKIDOWN,flokidown,floki 2-4 short,8,False,False
+KAVAUP,kavaup,kava 2-4 long,8,False,False
+KAVADOWN,kavadown,kava 2-4 short,8,False,False
+LUNCUP,luncup,lunc 2-4 long,8,False,False
+LUNCDOWN,luncdown,lunc 2-4 short,8,False,False
+ZILUP,zilup,zil 2-4 long,8,False,False
+WOOUP,wooup,woo 2-4 long,8,False,False
+ZILDOWN,zildown,zil 2-4 short,8,False,False
+WOODOWN,woodown,woo 2-4 short,8,False,False
+SUIA,suia,suia,8,False,False
+FILUP,filup,fil 2-4 long,8,False,False
+FILDOWN,fildown,fil 2-4 short,8,False,False
+LUNAUP,lunaup,luna 2-4 long,8,False,False
+LUNADOWN,lunadown,luna 2-4 short,8,False,False
+ARPAUP,arpaup,arpa 2-4 long,8,False,False
+ARPADOWN,arpadown,arpa 2-4 short,8,False,False
+ROSEUP,roseup,rose 2-4 long,8,False,False
+ROSEDOWN,rosedown,rose 2-4 short,8,False,False
+FETUP,fetup,fet 2-4 long,8,False,False
+FETDOWN,fetdown,fet 2-4 short,8,False,False
+OCEANUP,oceanup,ocean 2-4 long,8,False,False
+OCEANDOWN,oceandown,ocean 2-4 short,8,False,False
+ALGOUP,algoup,algo 2-4 long,8,False,False
+ALGODOWN,algodown,algo 2-4 short,8,False,False
+LADYS,ladys,milady meme coin,11,False,True
+RFD,rfd,refundcoin,8,False,False
+HIBAKC,hibakc,hibakc,8,False,False
+TENET,tenet,tenet,8,False,False
+INFRA,infra,bware,8,False,False
+VERSE,verse,verse,8,False,False
+OBI,obi,orbofi ai,8,False,False
+TSUGT,tsugt, captain tsubasa -rivals ,8,False,False
+PIKA,pika,pika protocol,8,False,False
+XPLL,xpll,parallelchain,8,False,False
+LAI,lai,layerai,8,False,False
+EDU,edu,open campus,8,False,False
+ORDI,ordi,ordinals,8,False,True
+COMBO,combo,combo,8,False,False
+VOLT,volt,volt inu,10,False,False
+SEI,sei,sei,8,True,True
+TOMI,tomi,tominet,8,False,True
+CANDY,candy,candy,8,False,False
+PIP,pip,pip,8,False,False
+OMN,omn,omega network,8,False,False
+VCORE,vcore,imvu,8,False,False
+MMM,mmm,meta merge mana,8,False,False
+XEN,xen,xen crypto,8,False,False
+MAV,mav,maverick protocol,8,False,True
+LBR,lbr,lybra finance,8,False,False
+AURA,aura,aura finance,8,False,False
+PENDLE,pendle,pendle,8,False,False
+GAMMA,gamma,gamma,8,False,False
+EGO,ego,paysenger ego,8,False,False
+PEPE2,pepe2,pepe 2.0,11,True,True
+COMPUP,compup,comp 2-4 long,8,False,False
+COMPDOWN,compdown,comp 2-4 short,8,False,False
+MKRUP,mkrup,mkr 2-4 long,8,False,False
+MKRDOWN,mkrdown,mkr 2-4 short,8,False,False
+LYX,lyx,lukso,8,False,False
+DCK,dck,dexcheck,8,False,False
+WLD,wld,worldcoin,8,True,True
+WLDUP,wldup,wld 2-4 long,8,False,False
+WLDDOWN,wlddown,wld 2-4 short,8,False,False
+AIEPK,aiepk,epik protocol,8,False,False
+SPRINT,sprint,sprint,8,False,False
+PERPUP,perpup,perp 2-4 long,8,False,False
+PERPDOWN,perpdown,perp 2-4 short,8,False,False
+UNFIUP,unfiup,unfi 2-4 long,8,False,False
+UNFIDOWN,unfidown,unfi 2-4 short,8,False,False
+TRBUP,trbup,trb 2-4 long,8,False,False
+TRBDOWN,trbdown,trb 2-4 short,8,False,False
+PYUSD,pyusd,paypal usd,8,False,False
+FRONTUP,frontup,front 2-4 long,8,False,False
+FRONTDOWN,frontdown,front 2-4 short,8,False,False
+GLMRUP,glmrup,glmr 2-4 long,8,False,False
+GLMRDOWN,glmrdown,glmr 2-4 short,8,False,False
+ISLM,islm,islamic coin,8,False,False
+ZELIX,zelix,zelix,8,False,False
+BIGTIME,bigtime,big time,8,False,True
+NTRN,ntrn,neutron,8,False,False
+ARKM,arkm,arkham,8,False,False
+VRAUP,vraup,vra 2-4 long,8,False,False
+VRADOWN,vradown,vra 2-4 short,8,False,False
+STORJUP,storjup,storj 2-4 long,8,False,False
+STORJDOWN,storjdown,storj 2-4 short,8,False,False
+LOOMUP,loomup,loom 2-4 long,8,False,False
+LOOMDOWN,loomdown,loom 2-4 short,8,False,False
+OFN,ofn,openfabric ai,8,False,False
+TIA,tia,celestia,8,False,True
+KLUB,klub,klubcoin,8,False,False
