@@ -1301,5 +1301,8 @@ STORJDOWN,storjdown,storj 2-4 short,8,False,False
 LOOMUP,loomup,loom 2-4 long,8,False,False
 LOOMDOWN,loomdown,loom 2-4 short,8,False,False
 OFN,ofn,openfabric ai,8,False,False
-TIA,tia,celestia,8,False,True
+TIA,tia,celestia,8,True,True
 KLUB,klub,klubcoin,8,False,False
+CYBER,cyber,cyberconnect,8,False,False
+MEME,meme,memecoin,8,False,False
+TOKEN,token,tokenfi,8,False,False
