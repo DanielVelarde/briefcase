@@ -88,11 +88,11 @@ def obtener_datos_historicos(interval):
                                 price_data.append(currency)  # Agregar una columna para la moneda correspondiente
                                 historical_data.append(price_data)
                         else:
-                            print(f"No se encontraron datos históricos para {currency}.")
+                            continue
                     else:
-                        print(f"No se encontraron datos históricos para {currency}")
+                        continue
                 else:
-                    print(f"Error al obtener datos históricos para {currency}: Código de estado {response.status_code}")
+                    continue
             except Exception as e:
                 print(f"Error de conexión para {currency}: {e}")
 
@@ -129,7 +129,7 @@ def guardar_datos_historicos_en_db(conn, cursor, csv_filename, interval):
     historical_data_df = pd.read_csv(csv_filename)
 
     historical_data_df['timestamp'] = pd.to_datetime(historical_data_df['timestamp'])
-    historical_data_df.to_sql(f'/home/erosennin/briefcase/Squeeze_Play/historical_data_{interval}', engine, if_exists="append", index=False)
+    historical_data_df.to_sql(f'historical_data_{interval}', engine, if_exists="append", index=False)
 
 def main():
     conn, cursor = establecer_conexion()

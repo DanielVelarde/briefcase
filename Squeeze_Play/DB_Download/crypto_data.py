@@ -1,5 +1,4 @@
 import requests
-from tqdm import tqdm
 
 def obtener_lista_monedas():
     # Obtiene la lista de criptomonedas desde una API de KuCoin
@@ -29,12 +28,9 @@ def obtener_datos_historicos(interval, coins):
                 if data["code"] == "200000":
                     historical_prices = data["data"]
                     if historical_prices:
-                        total = len(historical_prices)
-                        with tqdm(total=total, position=0, leave=True, ncols=100, desc=f"Obteniendo datos para {currency['currency']}") as pbar:
-                            for price_data in historical_prices:
-                                price_data.append(currency['currency'])
-                                historical_data.append(price_data)
-                                pbar.update(1)  # Actualizar la barra de progreso
+                        for price_data in historical_prices:
+                            price_data.append(currency['currency'])
+                            historical_data.append(price_data)
                     else:
                         continue
                 else:
