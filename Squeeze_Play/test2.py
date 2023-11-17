@@ -3,6 +3,7 @@ import requests
 import pandas as pd
 from sqlalchemy import create_engine
 from tqdm import tqdm
+from datetime import datetime, timedelta, timezone
 
 # Configuración de la base de datos
 dbname = "kucoin"
@@ -24,11 +25,11 @@ def establecer_conexion():
 def crear_tablas_si_no_existen():
     conn, cursor = establecer_conexion()
     if conn is not None and cursor is not None:
-        intervals = ["1day", "1week"]
+        intervals = ["1day", "1week", "1month"]
         for interval in intervals:
             create_table_query = f"""
             CREATE TABLE IF NOT EXISTS historical_data_{interval} (
-                timestamp NUMERIC,
+                timestamp TIMESTAMP,
                 open NUMERIC,
                 high NUMERIC,
                 low NUMERIC,
@@ -85,7 +86,30 @@ def guardar_monedas_en_db(conn, cursor, currencies):
         conn.rollback()
         print(f"Error al crear o insertar datos en la tabla: {e}")
 
-def obtener_datos_historicos(interval):
+def obtener_ultima_fecha(interval):
+    conn, cursor = establecer_conexion()
+    if conn is not None and cursor is not None:
+        cursor.execute(f"SELECT MAX(EXTRACT(epoch FROM timestamp)::float) FROM historical_data_{interval}")
+        last_date_timestamp = cursor.fetchone()[0]
+        cursor.close()
+        conn.close()
+
+        last_date = datetime.utcfromtimestamp(last_date_timestamp).replace(tzinfo=timezone.utc) if last_date_timestamp else None
+
+        if last_date:
+            current_date = datetime.now(timezone.utc)
+            if last_date.date() >= current_date.date():
+                print(f"Los datos están actualizados para el intervalo {interval}. No se requiere actualizar.")
+                return None, True  # Devuelve None para la última fecha y True para indicar que la base de datos existe y está actualizada.
+
+        print(f"Última fecha en la base de datos para el intervalo {interval}: {last_date}")
+        return last_date, True  # Devuelve la última fecha y True para indicar que la base de datos existe.
+
+    else:
+        print(f"No se pudo obtener la última fecha para el intervalo {interval}")
+        return None, False  # Devuelve None para la última fecha y False para indicar que la base de datos no existe.
+
+def obtener_nueva_data(interval, start_date, end_date):
     conn, cursor = establecer_conexion()
     if conn is not None and cursor is not None:
         cursor.execute("SELECT currency FROM coin_list")
@@ -94,41 +118,43 @@ def obtener_datos_historicos(interval):
 
         historical_data = []
 
+        print(f"Descargando datos históricos ({interval}) desde {start_date} hasta {end_date}")
+
         with tqdm(coins, position=0, leave=True, ncols=100, desc=f"Descargando datos históricos ({interval})") as pbar:
             for coin in coins:
                 currency = coin[0]
                 symbol = f"{currency}-USDT"
-                url = f"https://api.kucoin.com/api/v1/market/candles?type={interval}&symbol={symbol}"
+                url = f"https://api.kucoin.com/api/v1/market/candles?type={interval}&symbol={symbol}&startAt={start_date}&endAt={end_date}"
 
                 try:
                     response = requests.get(url)
                     if response.status_code == 200:
                         data = response.json()
+                        #print(f"Respuesta de la API para {currency}: {data}")  # Agrega esta línea para imprimir la respuesta de la API
                         if data["code"] == "200000":
-                            historical_prices = data["data"]
-                            if historical_prices:
-                                for price_data in historical_prices:
-                                    # Agregar una conversión del timestamp a milisegundos
-                                    price_data[0] *= 1000
-                                    price_data.append(currency)
-                                    historical_data.append(price_data)
-                            else:
-                                continue
-                        else:
+                            historical_prices = data.get("data", [])  # Obtener la lista de precios, o una lista vacía si no hay datos
+                            for price_data in historical_prices:
+                                price_data.append(currency)  # Agregar una columna para la moneda correspondiente
+                                historical_data.append(price_data)
                             continue
                     else:
                         continue
                 except Exception as e:
                     print(f"Error de conexión para {currency}: {e}")
+                    continue
 
-                pbar.update(1)  # Actualizar la barra de progreso
+                pbar.update(1)
 
+       # print(f"Datos obtenidos para {interval}: {historical_data}")
         return historical_data
-    else:
-        return []
 
 def guardar_datos_historicos_en_csv(historical_data, interval):
     columns = ["timestamp", "open", "high", "low", "close", "volume", "assetvolume", "currency"]
+    
+    # Modificamos la forma en que se manejan las fechas
+    for data_point in historical_data:
+        data_point[0] = datetime.utcfromtimestamp(int(data_point[0])).strftime('%Y-%m-%d %H:%M:%S')
+
     historical_df = pd.DataFrame(historical_data, columns=columns)
 
     csv_filename = f"/home/erosennin/briefcase/Squeeze_Play/historical_data_{interval}.csv"
@@ -139,7 +165,7 @@ def guardar_datos_historicos_en_csv(historical_data, interval):
 def guardar_datos_historicos_en_db(conn, cursor, csv_filename, interval):
     create_table_query = f"""
     CREATE TABLE IF NOT EXISTS historical_data_{interval} (
-        timestamp NUMERIC,
+        timestamp TIMESTAMP,
         open NUMERIC,
         high NUMERIC,
         low NUMERIC,
@@ -154,9 +180,13 @@ def guardar_datos_historicos_en_db(conn, cursor, csv_filename, interval):
 
     engine = create_engine(f'postgresql+psycopg2://{user}:{password}@{host}:{port}/{dbname}')
     historical_data_df = pd.read_csv(csv_filename)
-
-    historical_data_df['timestamp'] = historical_data_df['timestamp'] * 1000  # Convertir a timestamp de milisegundos
-    historical_data_df.to_sql(f'historical_data_{interval}', engine, if_exists="append", index=False)
+    print("domo")
+    try:
+        historical_data_df['timestamp'] = pd.to_datetime(historical_data_df['timestamp'])
+        historical_data_df.to_sql(f'historical_data_{interval}', engine, if_exists="append", index=False)
+        print(f"Datos cargados exitosamente en la base de datos para el intervalo {interval}")
+    except Exception as e:
+        print(f"Error al cargar datos en la base de datos: {e}")
 
 def main():
     crear_tablas_si_no_existen()
@@ -168,10 +198,48 @@ def main():
 
         intervals = ["1day", "1week"]
         for interval in intervals:
-            historical_data = obtener_datos_historicos(interval)
-            if historical_data:
-                csv_filename = guardar_datos_historicos_en_csv(historical_data, interval)
-                guardar_datos_historicos_en_db(conn, cursor, csv_filename, interval)
+            last_date, database_exists = obtener_ultima_fecha(interval)
+            current_date = datetime.now()
+
+            if database_exists and last_date is not None:
+                print(f"Última fecha convertida a timestamp: {last_date}")
+                if interval == "1day":
+                    if isinstance(last_date, datetime):
+                        start_date_timestamp = int(last_date.timestamp()) + 86400  # Agregar un día en segundos
+                        end_date_timestamp = int(current_date.timestamp())
+                        historical_data = obtener_nueva_data(interval, start_date_timestamp, end_date_timestamp)
+
+                        print(f"Datos históricos descargados:")
+                        if historical_data:
+                            csv_filename = guardar_datos_historicos_en_csv(historical_data, interval)
+                            guardar_datos_historicos_en_db(conn, cursor, csv_filename, interval)
+                    else:
+                        print(f"Error: el tipo de last_date no es datetime. Tipo actual: {type(last_date)}")
+                elif interval == "1week":
+                    if isinstance(last_date, datetime):
+                        start_date_timestamp = int(last_date.timestamp()) + 7 * 86400  # Agregar una semana en segundos
+                        end_date_timestamp = int(current_date.timestamp())
+                        historical_data = obtener_nueva_data(interval, start_date_timestamp, end_date_timestamp)
+
+                        print(f"Datos históricos descargados:")
+                        if historical_data:
+                            csv_filename = guardar_datos_historicos_en_csv(historical_data, interval)
+                            guardar_datos_historicos_en_db(conn, cursor, csv_filename, interval)
+                    else:
+                        print(f"Error: el tipo de last_date no es datetime. Tipo actual: {type(last_date)}")
+                else:
+                    # Otros intervalos pueden ser manejados de manera similar según sea necesario
+                    pass
+
+            elif not database_exists:
+                print(f"No hay registros en la tabla para el intervalo {interval}. Descargando todos los datos desde hace 365 días atrás.")
+                start_date_timestamp = int(current_date.timestamp()) - 365 * 86400  # Restar 365 días en segundos
+                end_date_timestamp = int(current_date.timestamp())
+                historical_data = obtener_nueva_data(interval, start_date_timestamp, end_date_timestamp)
+
+                if historical_data:
+                    csv_filename = guardar_datos_historicos_en_csv(historical_data, interval)
+                    guardar_datos_historicos_en_db(conn, cursor, csv_filename, interval)
 
         cursor.close()
         conn.close()
