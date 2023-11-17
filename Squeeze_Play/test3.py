@@ -22,17 +22,6 @@ def establecer_conexion():
         print(f"Error de conexión: {e}")
         return None, None
 
-def obtener_ultima_fecha(interval):
-    conn, cursor = establecer_conexion()
-    if conn is not None and cursor is not None:
-        cursor.execute(f"SELECT MAX(timestamp) FROM historical_data_{interval}")
-        last_date = cursor.fetchone()[0]
-        cursor.close()
-        conn.close()
-        return last_date
-    else:
-        return None
-
 def crear_tablas_si_no_existen():
     conn, cursor = establecer_conexion()
     if conn is not None and cursor is not None:
@@ -97,23 +86,32 @@ def guardar_monedas_en_db(conn, cursor, currencies):
         conn.rollback()
         print(f"Error al crear o insertar datos en la tabla: {e}")
 
-def obtener_datos_historicos(interval):
-    last_date = obtener_ultima_fecha(interval)
-    if last_date is None:
-        return []  # No se pudo obtener la última fecha
-
-    current_date = datetime.now()
-    if interval == "1day" and (current_date - last_date) < timedelta(days=1):
-        print(f"Los datos están actualizados para el intervalo {interval}. No se requiere actualizar.")
-        return []
-    elif interval == "1week" and (current_date - last_date) < timedelta(weeks=1):
-        print(f"Los datos están actualizados para el intervalo {interval}. No se requiere actualizar.")
-        return []
-
-    print(f"La última fecha en la base de datos para el intervalo {interval} es {last_date}")
-
+def obtener_ultima_fecha(interval):
     conn, cursor = establecer_conexion()
     if conn is not None and cursor is not None:
+        cursor.execute(f"SELECT MAX(timestamp) FROM historical_data_{interval}")
+        last_date = cursor.fetchone()[0]
+        cursor.close()
+        conn.close()
+        return last_date
+    else:
+        return None
+
+def obtener_datos_historicos(interval):
+    conn, cursor = establecer_conexion()
+    if conn is not None and cursor is not None:
+        last_date = obtener_ultima_fecha(interval)
+        current_date = datetime.now()
+
+        if last_date:
+            delta = current_date - last_date
+            if interval == "1day" and delta < timedelta(days=1):
+                print(f"Los datos están actualizados para el intervalo {interval}. No se requiere actualizar.")
+                return []
+            elif interval == "1week" and delta < timedelta(days=7):
+                print(f"Los datos están actualizados para el intervalo {interval}. No se requiere actualizar.")
+                return []
+
         cursor.execute("SELECT currency FROM coin_list")
         coins = cursor.fetchall()
         conn.close()
@@ -134,7 +132,7 @@ def obtener_datos_historicos(interval):
                             historical_prices = data["data"]
                             if historical_prices:
                                 for price_data in historical_prices:
-                                    price_data.append(currency)
+                                    price_data.append(currency)  # Agregar una columna para la moneda correspondiente
                                     historical_data.append(price_data)
                             else:
                                 continue
@@ -145,11 +143,9 @@ def obtener_datos_historicos(interval):
                 except Exception as e:
                     print(f"Error de conexión para {currency}: {e}")
 
-                pbar.update(1)
+                pbar.update(1)  # Actualizar la barra de progreso
 
         return historical_data
-    else:
-        return []
 
 def guardar_datos_historicos_en_csv(historical_data, interval):
     columns = ["timestamp", "open", "high", "low", "close", "volume", "assetvolume", "currency"]
@@ -179,7 +175,8 @@ def guardar_datos_historicos_en_db(conn, cursor, csv_filename, interval):
     engine = create_engine(f'postgresql+psycopg2://{user}:{password}@{host}:{port}/{dbname}')
     historical_data_df = pd.read_csv(csv_filename)
 
-    historical_data_df['timestamp'] = pd.to_datetime(historical_data_df['timestamp'])
+    # Convertir la columna 'timestamp' al formato adecuado
+    historical_data_df['timestamp'] = pd.to_datetime(historical_data_df['timestamp'], unit='s')
     historical_data_df.to_sql(f'historical_data_{interval}', engine, if_exists="append", index=False)
 
 def main():
@@ -190,7 +187,7 @@ def main():
         currencies = obtener_lista_monedas()
         guardar_monedas_en_db(conn, cursor, currencies)
 
-        intervals = ["1day", "1week",]
+        intervals = ["1day", "1week"]
         for interval in intervals:
             historical_data = obtener_datos_historicos(interval)
             if historical_data:
