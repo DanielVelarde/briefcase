@@ -1,45 +1,74 @@
-# briefcase
-Daniel Velarde Kubber - Data Engineer
-Introduction
+# Daniel Velarde's Data Engineering Portfolio
 
-Hello! I'm Daniel Velarde Kubber, a Bolivian national with a background in Industrial and Systems Engineering. Currently, I am focusing on specializing in Data Engineering. This README serves as a brief overview of the projects I have worked on during the last quarter of 2023.
-Projects
-1. Data Engineering Capstone Project
-Folder: Data_Eng_Capstone_project
+## Introduction
 
-This directory contains my final project for the IBM Data Engineering course on Coursera. The project encompasses all the knowledge and skills acquired during the course. The hands-on experience in this capstone project allowed me to apply data engineering principles to solve real-world problems.
-2. Google Data Analytics Learning
-Folder: Google_Data_Analytics
+Welcome to my data engineering portfolio! I'm Daniel Velarde Kubber, a Bolivian national with a background in industrial and systems engineering. Currently, I'm specializing in data engineering. This repository showcases my work from the last quarter of 2023.
 
-In this section, I am delving into the realm of data analytics. It's an ongoing process as I work through courses to enhance my data analysis skills. Updates will be added as I progress through the Google Data Analytics specialization.
-3. Squeeze Play - Cryptocurrency Data Project
-Folder: Squeeze_Play
+### Projects
 
-This is my first personal project, Squeeze Play. It focuses on gathering historical price data for various cryptocurrencies from the KuCoin exchange. The data is fetched using the KuCoin API and stored in a PostgreSQL database. This project showcases my skills in data retrieval, database management, and scripting.
-About Me
+1. **Data_Eng_Capstone_Project**
+   - *Folder:* `Data_Eng_Capstone_Project`
+   - This folder contains my final project for a data engineering course on Coursera, "IBM_Data_Eng." It encapsulates everything I learned during the IBM data engineering course.
 
-I am passionate about leveraging data to derive insights and drive informed decision-making. As I continue to explore the vast field of data engineering and analytics, I am excited about the possibilities and challenges that lie ahead.
+2. **Google_Data_Analytics**
+   - *Folder:* `Google_Data_Analytics`
+   - In this section, I'm starting to delve into data analytics using Google's tools. Expect updates as I progress through the course.
 
-Feel free to explore my projects and connect with me!
-Daniel Velarde Kubber - Ingeniero de Datos
-Introducción
+3. **Squeeze_Play**
+   - *Folder:* `Squeeze_Play`
+   - My first personal project! "Squeeze Play" focuses on historical price data retrieval and storage from the KuCoin cryptocurrency exchange.
 
-¡Hola! Soy Daniel Velarde Kubber, un boliviano con formación en Ingeniería Industrial y de Sistemas. Actualmente, me estoy especializando en Ingeniería de Datos. Este README sirve como una breve descripción de los proyectos en los que he trabajado durante el último trimestre de 2023.
-Proyectos
-1. Proyecto Final de Ingeniería de Datos
-Carpeta: Data_Eng_Capstone_project
+### Brief Overview of Squeeze_Play
 
-Esta carpeta contiene mi proyecto final para el curso de Ingeniería de Datos de IBM en Coursera. El proyecto abarca todo el conocimiento y las habilidades adquiridas durante el curso. La experiencia práctica en este proyecto final me permitió aplicar principios de ingeniería de datos para resolver problemas del mundo real.
-2. Aprendizaje de Google Data Analytics
-Carpeta: Google_Data_Analytics
+"Squeeze Play" is a Python script that retrieves and stores historical cryptocurrency price data from KuCoin. It leverages the KuCoin API to download data for specified intervals (e.g., 1 day, 1 week) and stores it in a PostgreSQL database.
 
-En esta sección, me sumerjo en el ámbito del análisis de datos. Es un proceso en curso a medida que trabajo en cursos para mejorar mis habilidades de análisis de datos. Se agregarán actualizaciones a medida que avance en la especialización de Google Data Analytics.
-3. Squeeze Play - Proyecto de Datos de Criptomonedas
-Carpeta: Squeeze_Play
+### How to Access Projects
 
-Este es mi primer proyecto personal, Squeeze Play. Se centra en recopilar datos históricos de precios de diversas criptomonedas del exchange KuCoin. Los datos se obtienen mediante la API de KuCoin y se almacenan en una base de datos PostgreSQL. Este proyecto muestra mis habilidades en recuperación de datos, gestión de bases de datos y scripting.
-Sobre mí
+To access a specific project:
 
-Me apasiona aprovechar los datos para obtener información y tomar decisiones informadas. A medida que sigo explorando el vasto campo de la ingeniería y el análisis de datos, estoy emocionado por las posibilidades y desafíos que se avecinan.
+1. Clone the repository: `git clone https://github.com/DanielVelarde/briefcase.git`
+2. Navigate to the project folder: `cd project_folder`
 
-¡Siéntete libre de explorar mis proyectos y conectarte conmigo!
+### Acknowledgments
+
+I appreciate your interest in exploring my data engineering journey. Feel free to provide feedback or reach out for collaborations!
+
+---
+
+*En Español:*
+```markdown
+# Portafolio de Ingeniería de Datos de Daniel Velarde
+
+## Introducción
+
+¡Bienvenido a mi portafolio de ingeniería de datos! Soy Daniel Velarde Kubber, un boliviano con formación en ingeniería industrial y de sistemas. Actualmente, me estoy especializando en ingeniería de datos. Este repositorio muestra mi trabajo del último trimestre de 2023.
+
+### Proyectos
+
+1. **Data_Eng_Capstone_Project**
+   - *Carpeta:* `Data_Eng_Capstone_Project`
+   - Esta carpeta contiene mi proyecto final para un curso de ingeniería de datos en Coursera, "IBM_Data_Eng". Incluye todo lo que aprendí durante el curso de ingeniería de datos de IBM.
+
+2. **Google_Data_Analytics**
+   - *Carpeta:* `Google_Data_Analytics`
+   - En esta sección, estoy comenzando a adentrarme en el análisis de datos utilizando las herramientas de Google. Espera actualizaciones a medida que avance en el curso.
+
+3. **Squeeze_Play**
+   - *Carpeta:* `Squeeze_Play`
+   - ¡Mi primer proyecto personal! "Squeeze Play" se centra en la recuperación y almacenamiento de datos históricos de precios del intercambio de criptomonedas KuCoin.
+
+### Breve Resumen de Squeeze_Play
+
+"Squeeze Play" es un script en Python que obtiene y almacena datos históricos de precios de criptomonedas de KuCoin. Utiliza la API de KuCoin para descargar datos para intervalos especificados (por ejemplo, 1 día, 1 semana) y los almacena en una base de datos PostgreSQL.
+
+### Cómo Acceder a los Proyectos
+
+Para acceder a un proyecto específico:
+
+1. Clona el repositorio: `git clone https://github.com/DanielVelarde/briefcase.git`
+2. Navega a la carpeta del proyecto: `cd project_folder`
+
+### Reconocimientos
+
+Agradezco tu interés en explorar mi recorrido en ingeniería de datos. ¡No dudes en proporcionar comentarios o ponerte en contacto para colaboraciones!
+

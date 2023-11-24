@@ -1,165 +1,72 @@
-README
-Overview
+# Squeeze_Play
 
-This Python script is designed to fetch historical price data for various cryptocurrencies from the KuCoin exchange. The data is retrieved using the KuCoin API and stored in a PostgreSQL database. The script supports different time intervals, such as daily (1day) and weekly (1week).
-Prerequisites
+This repository contains my personal project "Squeeze Play" as part of my data engineering journey. The project focuses on historical price data retrieval and storage from the KuCoin cryptocurrency exchange.
 
-Make sure you have the following dependencies installed:
+## Table of Contents
+- [Overview](#overview)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-    Python 3.x
-    PostgreSQL
-    Required Python packages (install using pip install package_name):
-        psycopg2
-        requests
-        pandas
-        sqlalchemy
-        tqdm
+## Overview
 
-Setup
+"Squeeze Play" is a Python script that retrieves and stores historical cryptocurrency price data from KuCoin. It leverages the KuCoin API to download data for specified intervals (e.g., 1 day, 1 week) and stores it in a PostgreSQL database.
 
-    Clone the repository:
+## Installation
 
-    bash
+To run the project, follow these steps:
 
-git clone https://github.com/your-username/kucoin-historical-data.git
+1. Clone the repository: `git clone https://github.com/DanielVelarde/Squeeze_Play.git`
+2. Install the required libraries: `pip install -r requirements.txt`
 
-Create a virtual environment (optional but recommended):
+## Usage
 
-bash
+1. Ensure you have PostgreSQL installed and running.
+2. Update the database connection details in the script.
+3. Run the script: `python ETL_Crypto_data.py`
 
-cd kucoin-historical-data
-python -m venv venv
+## Contributing
 
-Activate the virtual environment:
+Contributions are welcome! If you find any issues or have suggestions for improvement, please open an issue or create a pull request.
 
-    Windows:
+## License
 
-    bash
+This project is licensed under the [MIT License](LICENSE).
 
-.\venv\Scripts\activate
 
-Unix or MacOS:
+# Squeeze_Play
 
-bash
+Este repositorio contiene mi proyecto personal "Squeeze Play" como parte de mi recorrido en ingeniería de datos. El proyecto se centra en la recuperación y almacenamiento de datos históricos de precios de la criptomoneda en el intercambio KuCoin.
 
-    source venv/bin/activate
+## Tabla de Contenidos
+- [Descripción General](#descripción-general)
+- [Instalación](#instalación)
+- [Uso](#uso)
+- [Contribuciones](#contribuciones)
+- [Licencia](#licencia)
 
-Install the required packages:
+## Descripción General
 
-bash
+"Squeeze Play" es un script en Python que obtiene y almacena datos históricos de precios de criptomonedas de KuCoin. Utiliza la API de KuCoin para descargar datos para intervalos especificados (por ejemplo, 1 día, 1 semana) y los almacena en una base de datos PostgreSQL.
 
-    pip install -r requirements.txt
+## Instalación
 
-    Configure your PostgreSQL database connection in the script:
-        Open kucoin_data_downloader.py in a text editor.
-        Update the dbname, user, password, host, and port variables according to your PostgreSQL setup.
+Para ejecutar el proyecto, sigue estos pasos:
 
-Usage
+1. Clona el repositorio: `git clone https://github.com/DanielVelarde/Squeeze_Play.git`
+2. Instala las bibliotecas requeridas: `pip install -r requirements.txt`
 
-Run the script to fetch and store historical data:
+## Uso
 
-bash
+1. Asegúrate de tener PostgreSQL instalado y en funcionamiento.
+2. Actualiza los detalles de conexión de la base de datos en el script.
+3. Ejecuta el script: `python ETL_Crypto_data.py`
 
-python kucoin_data_downloader.py
+## Contribuciones
 
-Understanding the Code
+¡Las contribuciones son bienvenidas! Si encuentras algún problema o tienes sugerencias para mejorar, abre un problema o crea una solicitud de extracción.
 
-    Database Setup:
-        The script creates tables for different time intervals in the PostgreSQL database if they do not exist.
-        Coin information is stored in the coin_list table.
+## Licencia
 
-    Data Retrieval:
-        The script fetches a list of supported cryptocurrencies from the KuCoin API.
-        It then downloads historical price data for each cryptocurrency and stores it in the corresponding database table.
-
-    Data Storage:
-        Timestamps are stored in UTC format.
-        Data is stored in CSV files and loaded into the database using Pandas and SQLAlchemy.
-
-Additional Notes
-
-    Adjust the time intervals or add new ones as needed by modifying the intervals list in the script.
-    The script avoids downloading duplicate data by checking the last stored timestamp in the database.
-
-README (en español)
-Descripción general
-
-Este script de Python está diseñado para obtener datos históricos de precios de diversas criptomonedas del exchange KuCoin. Los datos se recuperan utilizando la API de KuCoin y se almacenan en una base de datos PostgreSQL. El script es compatible con diferentes intervalos de tiempo, como diario (1day) y semanal (1week).
-Requisitos previos
-
-Asegúrate de tener instaladas las siguientes dependencias:
-
-    Python 3.x
-    PostgreSQL
-    Paquetes de Python necesarios (instálalos con pip install nombre_del_paquete):
-        psycopg2
-        requests
-        pandas
-        sqlalchemy
-        tqdm
-
-Configuración
-
-    Clona el repositorio:
-
-    bash
-
-git clone https://github.com/tu-nombre-de-usuario/kucoin-historical-data.git
-
-Crea un entorno virtual (opcional pero recomendado):
-
-bash
-
-cd kucoin-historical-data
-python -m venv venv
-
-Activa el entorno virtual:
-
-    Windows:
-
-    bash
-
-.\venv\Scripts\activate
-
-Unix o MacOS:
-
-bash
-
-    source venv/bin/activate
-
-Instala los paquetes necesarios:
-
-bash
-
-    pip install -r requirements.txt
-
-    Configura la conexión a tu base de datos PostgreSQL en el script:
-        Abre kucoin_data_downloader.py en un editor de texto.
-        Actualiza las variables dbname, user, password, host y port según tu configuración de PostgreSQL.
-
-Uso
-
-Ejecuta el script para obtener y almacenar datos históricos:
-
-bash
-
-python kucoin_data_downloader.py
-
-Entendiendo el código
-
-    Configuración de la base de datos:
-        El script crea tablas para diferentes intervalos de tiempo en la base de datos PostgreSQL si no existen.
-        La información de las criptomonedas se almacena en la tabla coin_list.
-
-    Recuperación de datos:
-        El script obtiene una lista de criptomonedas admitidas de la API de KuCoin.
-        Luego descarga datos históricos de precios para cada criptomoneda y los almacena en la tabla correspondiente de la base de datos.
-
-    Almacenamiento de datos:
-        Los registros de tiempo se almacenan en formato UTC.
-        Los datos se almacenan en archivos CSV y se cargan en la base de datos utilizando Pandas y SQLAlchemy.
-
-Notas adicionales
-
-    Ajusta los intervalos de tiempo o agrega nuevos según sea necesario modificando la lista intervals en el script.
-    El script evita descargar datos duplicados mediante la verificación del último timestamp almacenado en la base de datos.
+Este proyecto está bajo la [Licencia MIT](LICENSE).
