@@ -33,10 +33,7 @@ To access a specific project:
 
 I appreciate your interest in exploring my data engineering journey. Feel free to provide feedback or reach out for collaborations!
 
----
 
-*En Español:*
-```markdown
 # Portafolio de Ingeniería de Datos de Daniel Velarde
 
 ## Introducción
