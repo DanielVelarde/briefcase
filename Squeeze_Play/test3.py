@@ -100,18 +100,19 @@ def obtener_ultima_fecha(interval):
             current_date = datetime.now(timezone.utc)
             if interval == "1week" and (current_date - last_date).days < 7:
                 print(f"No han pasado suficientes días para el intervalo {interval}. No se requiere actualizar.")
-                return None, True
+                return last_date, True
 
             if last_date.date() >= current_date.date():
                 print(f"Los datos están actualizados para el intervalo {interval}. No se requiere actualizar.")
-                return None, True
+                return last_date, True
 
         print(f"Última fecha en la base de datos para el intervalo {interval}: {last_date}")
-        return last_date, True
+        return last_date, False  # Cambiamos True a False para indicar que no hay datos en la base de datos
 
     else:
         print(f"No se pudo obtener la última fecha para el intervalo {interval}")
         return None, False
+
 
 def obtener_nueva_data(interval, start_date, end_date):
     conn, cursor = establecer_conexion()
@@ -130,30 +131,44 @@ def obtener_nueva_data(interval, start_date, end_date):
                 symbol = f"{currency}-USDT"
                 url = f"https://api.kucoin.com/api/v1/market/candles?type={interval}&symbol={symbol}&startAt={start_date}&endAt={end_date}"
 
+                print(f"Consultando URL para {currency}: {url}")
+
                 try:
-                    response = requests.get(url)
+                    response = requests.get(url, timeout=10)
+                    print(f"Respuesta de la API para {currency}: {response.status_code}")
+
                     if response.status_code == 200:
                         data = response.json()
-                        #print(f"Respuesta de la API para {currency}: {data}")  # Agrega esta línea para imprimir la respuesta de la API
-                        if data["code"] == "200000":
+                        print(f"Respuesta de la API para {currency}: {data}")  # Agrega esta línea para imprimir la respuesta de la API
+
+                        if data.get("code") == "200000":
                             historical_prices = data.get("data", [])  # Obtener la lista de precios, o una lista vacía si no hay datos
+                            if not historical_prices:
+                                print(f"No hay datos para {currency}.")
                             for price_data in historical_prices:
                                 price_data.append(currency)  # Agregar una columna para la moneda correspondiente
                                 historical_data.append(price_data)
                             continue
+                        else:
+                            print(f"La API respondió con un código de error: {data.get('code')}")
+                            print(f"Contenido de la respuesta de la API: {data}")
                     else:
-                        continue
+                        print(f"No se pudo obtener datos para {currency}. Código de estado: {response.status_code}")
+                        print(f"Contenido de la respuesta de la API: {response.text}")
+                except requests.Timeout:
+                    print(f"Tiempo de espera agotado para {currency}.")
                 except Exception as e:
-                    print(f"Error de conexión para {currency}: {e}")
-                    continue
+                    print(f"Error para {currency}: {e}")
 
                 pbar.update(1)
 
-       # print(f"Datos obtenidos para {interval}: {historical_data}")
+        print(f"Datos obtenidos para {interval}: {historical_data}")
         return historical_data
 
+
+
 def guardar_datos_historicos_en_csv(historical_data, interval):
-    columns = ["timestamp", "open", "low", "high", "close", "volume", "assetvolume", "currency"]
+    columns = ["timestamp", "open", "high", "low", "close", "volume", "assetvolume", "currency"]
     
     # Modificamos la forma en que se manejan las fechas
     for data_point in historical_data:
@@ -240,7 +255,6 @@ def main():
                 start_date_timestamp = int(current_date.timestamp()) - 365 * 86400  # Restar 365 días en segundos
                 end_date_timestamp = int(current_date.timestamp())
                 historical_data = obtener_nueva_data(interval, start_date_timestamp, end_date_timestamp)
-
 
                 if historical_data:
                     csv_filename = guardar_datos_historicos_en_csv(historical_data, interval)

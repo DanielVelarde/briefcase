@@ -31,8 +31,8 @@ def crear_tablas_si_no_existen():
             CREATE TABLE IF NOT EXISTS historical_data_{interval} (
                 timestamp TIMESTAMP,
                 open NUMERIC,
-                high NUMERIC,
                 low NUMERIC,
+                high NUMERIC,
                 close NUMERIC,
                 volume NUMERIC,
                 assetvolume NUMERIC,
@@ -100,14 +100,14 @@ def obtener_ultima_fecha(interval):
             current_date = datetime.now(timezone.utc)
             if interval == "1week" and (current_date - last_date).days < 7:
                 print(f"No han pasado suficientes días para el intervalo {interval}. No se requiere actualizar.")
-                return None, True
+                return last_date, True
 
             if last_date.date() >= current_date.date():
                 print(f"Los datos están actualizados para el intervalo {interval}. No se requiere actualizar.")
-                return None, True
+                return last_date, True
 
         print(f"Última fecha en la base de datos para el intervalo {interval}: {last_date}")
-        return last_date, True
+        return last_date, False  # Cambiamos True a False para indicar que no hay datos en la base de datos
 
     else:
         print(f"No se pudo obtener la última fecha para el intervalo {interval}")
@@ -149,22 +149,26 @@ def obtener_nueva_data(interval, start_date, end_date):
 
                 pbar.update(1)
 
-       # print(f"Datos obtenidos para {interval}: {historical_data}")
+        #print(f"Datos obtenidos para {interval}: {historical_data}")
         return historical_data
-
-def guardar_datos_historicos_en_csv(historical_data, interval):
-    columns = ["timestamp", "open", "low", "high", "close", "volume", "assetvolume", "currency"]
     
+def guardar_datos_historicos_en_csv(historical_data, interval):
+    columns = ["timestamp", "open", "high", "low", "close", "volume", "assetvolume", "currency"]
+
     # Modificamos la forma en que se manejan las fechas
     for data_point in historical_data:
         data_point[0] = datetime.utcfromtimestamp(int(data_point[0])).strftime('%Y-%m-%d %H:%M:%S')
 
     historical_df = pd.DataFrame(historical_data, columns=columns)
 
+    # Cambiamos los nombres de las columnas sin afectar los datos
+    historical_df = historical_df.rename(columns={'high': 'low', 'low': 'high'})
+
     csv_filename = f"/home/erosennin/briefcase/Squeeze_Play/historical_data_{interval}.csv"
     historical_df.to_csv(csv_filename, index=False)
 
     return csv_filename
+
 
 def guardar_datos_historicos_en_db(conn, cursor, csv_filename, interval):
     create_table_query = f"""
@@ -240,7 +244,6 @@ def main():
                 start_date_timestamp = int(current_date.timestamp()) - 365 * 86400  # Restar 365 días en segundos
                 end_date_timestamp = int(current_date.timestamp())
                 historical_data = obtener_nueva_data(interval, start_date_timestamp, end_date_timestamp)
-
 
                 if historical_data:
                     csv_filename = guardar_datos_historicos_en_csv(historical_data, interval)
