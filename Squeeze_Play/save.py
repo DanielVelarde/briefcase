@@ -25,7 +25,7 @@ def establecer_conexion():
 def crear_tablas_si_no_existen():
     conn, cursor = establecer_conexion()
     if conn is not None and cursor is not None:
-        intervals = ["1day", "1week", "1month"]
+        intervals = ["1day", "1week"]
         for interval in intervals:
             create_table_query = f"""
             CREATE TABLE IF NOT EXISTS historical_data_{interval} (
