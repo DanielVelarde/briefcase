@@ -1,0 +1,83 @@
+import os
+import pandas as pd
+from requests import Request, Session
+from requests.exceptions import ConnectionError, Timeout, TooManyRedirects
+
+# Función para obtener datos de CoinMarketCap
+def get_coinmarketcap_data(symbol):
+    url = 'https://sandbox-api.coinmarketcap.com/v1/cryptocurrency/listings/latest'
+    parameters = {
+      'start':'1',
+      'limit':'5000',
+      'convert':'USD'
+    }
+    headers = {
+      'Accepts': 'application/json',
+      'X-CMC_PRO_API_KEY': '3bb42d39-8350-4e67-8c1b-799298c1b7bf',
+    }
+
+    session = Session()
+    session.headers.update(headers)
+
+    try:
+        response = session.get(url, params=parameters)
+        data = response.json()
+        return data
+    except (ConnectionError, Timeout, TooManyRedirects) as e:
+        print(e)
+        return None
+
+# Ruta de los archivos CSV
+file_path_week = '/home/erosennin/briefcase/Squeeze_Play/listado_2023-11-23 00:00:00_1week.csv'
+file_path_day = '/home/erosennin/briefcase/Squeeze_Play/listado_2023-11-27 00:00:00_1day.csv'
+
+# Cambiar permisos
+os.chmod(file_path_week, 0o777)
+os.chmod(file_path_day, 0o777)
+
+# Leer los archivos CSV
+df_week = pd.read_csv(file_path_week)
+df_day = pd.read_csv(file_path_day)
+
+# Agregar columnas nuevas para CoinMarketCap en los DataFrames
+df_week['marketcap'] = None
+df_week['circulating_supply'] = None
+df_week['max_supply'] = None
+df_week['volume_24h'] = None
+df_week['percent_change_24h'] = None
+
+df_day['marketcap'] = None
+df_day['circulating_supply'] = None
+df_day['max_supply'] = None
+df_day['volume_24h'] = None
+df_day['percent_change_24h'] = None
+
+# Iterar sobre las filas y agregar datos de CoinMarketCap
+for index, row in df_week.iterrows():
+    symbol = row['currency']
+    coinmarketcap_data = get_coinmarketcap_data(symbol)
+
+    if coinmarketcap_data:
+        # Actualizar las columnas con los datos de CoinMarketCap en df_week
+        df_week.at[index, 'marketcap'] = coinmarketcap_data['data'][0]['quote']['USD']['market_cap']
+        df_week.at[index, 'circulating_supply'] = coinmarketcap_data['data'][0]['circulating_supply']
+        df_week.at[index, 'max_supply'] = coinmarketcap_data['data'][0]['max_supply']
+        df_week.at[index, 'volume_24h'] = coinmarketcap_data['data'][0]['quote']['USD']['volume_24h']
+        df_week.at[index, 'percent_change_24h'] = coinmarketcap_data['data'][0]['quote']['USD']['percent_change_24h']
+
+# Iterar sobre las filas y agregar datos de CoinMarketCap en df_day
+for index, row in df_day.iterrows():
+    symbol = row['currency']
+    coinmarketcap_data = get_coinmarketcap_data(symbol)
+
+    if coinmarketcap_data:
+        # Actualizar las columnas con los datos de CoinMarketCap en df_day
+        df_day.at[index, 'marketcap'] = coinmarketcap_data['data'][0]['quote']['USD']['market_cap']
+        df_day.at[index, 'circulating_supply'] = coinmarketcap_data['data'][0]['circulating_supply']
+        df_day.at[index, 'max_supply'] = coinmarketcap_data['data'][0]['max_supply']
+        df_day.at[index, 'volume_24h'] = coinmarketcap_data['data'][0]['quote']['USD']['volume_24h']
+        df_day.at[index, 'percent_change_24h'] = coinmarketcap_data['data'][0]['quote']['USD']['percent_change_24h']
+
+# Guardar los DataFrames actualizados en los mismos archivos CSV de origen
+df_week.to_csv(file_path_week, index=False)
+df_day.to_csv(file_path_day, index=False)

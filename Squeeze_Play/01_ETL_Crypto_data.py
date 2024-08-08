@@ -184,13 +184,27 @@ def guardar_datos_historicos_en_db(conn, cursor, csv_filename, interval):
 
     engine = create_engine(f'postgresql+psycopg2://{user}:{password}@{host}:{port}/{dbname}')
     historical_data_df = pd.read_csv(csv_filename)
-    print("domo")
+
     try:
         historical_data_df['timestamp'] = pd.to_datetime(historical_data_df['timestamp'])
         historical_data_df.to_sql(f'historical_data_{interval}', engine, if_exists="append", index=False)
-        print(f"Datos cargados exitosamente en la base de datos para el intervalo {interval}")
+
+        # Corregir valores de low y high en la base de datos
+        update_query = f"""
+        UPDATE historical_data_{interval}
+        SET
+            high = GREATEST(low, high),
+            low = LEAST(low, high)
+        WHERE
+            low > high;
+        """
+        cursor.execute(update_query)
+        conn.commit()
+
+        print(f"Datos cargados y corregidos exitosamente en la base de datos para el intervalo {interval}")
     except Exception as e:
         print(f"Error al cargar datos en la base de datos: {e}")
+
 
 def main():
     crear_tablas_si_no_existen()
@@ -240,6 +254,7 @@ def main():
                 start_date_timestamp = int(current_date.timestamp()) - 365 * 86400  # Restar 365 días en segundos
                 end_date_timestamp = int(current_date.timestamp())
                 historical_data = obtener_nueva_data(interval, start_date_timestamp, end_date_timestamp)
+
 
                 if historical_data:
                     csv_filename = guardar_datos_historicos_en_csv(historical_data, interval)
