@@ -1,0 +1,62 @@
+import psycopg2
+import csv
+
+def insert_usdt_pairs_from_csv(csv_file):
+    # Establecer conexión a la base de datos
+    conn = psycopg2.connect(
+        dbname="Binance", user="ero", password="6962277", host="localhost", port="5432"
+    )
+    cursor = conn.cursor()
+
+    # Abrir el archivo CSV
+    with open(csv_file, mode="r") as file:
+        reader = csv.reader(file)
+        header = next(reader)  # Leer el encabezado
+        
+        for row in reader:
+            symbol = row[0].strip()  # El símbolo del par, como "ETH/USDT"
+            
+            # Filtrar solo pares que contienen "USDT"
+            if "USDT" not in symbol:
+                continue  # Saltar este par si no contiene "USDT"
+            
+            base, quote = symbol.split("/")  # Separar base y cotización
+
+            # Normalizar los símbolos (convertir a mayúsculas y eliminar espacios)
+            base = base.strip().upper()
+            quote = quote.strip().upper()
+
+            # Verificar si el nombre base existe en cryptocurrencies
+            cursor.execute(
+                "SELECT id FROM cryptocurrencies WHERE UPPER(name) = %s", (base,)
+            )
+            base_id = cursor.fetchone()
+            if base_id is None:
+                print(f"El símbolo {base} no está en cryptocurrencies. Skipping...")
+                continue  # Saltar al siguiente par
+
+            # Verificar si el nombre quote existe en cryptocurrencies
+            cursor.execute(
+                "SELECT id FROM cryptocurrencies WHERE UPPER(name) = %s", (quote,)
+            )
+            quote_id = cursor.fetchone()
+            if quote_id is None:
+                print(f"El símbolo {quote} no está en cryptocurrencies. Skipping...")
+                continue  # Saltar al siguiente par
+
+            # Insertar el par de criptomonedas en usdt_pairs
+            cursor.execute(
+                "INSERT INTO usdt_pairs (base_currency_id, quote_currency_id, symbol) VALUES (%s, %s, %s) "
+                "ON CONFLICT (symbol) DO NOTHING",
+                (base_id[0], quote_id[0], symbol)
+            )
+        
+        conn.commit()
+        print("Pares insertados con éxito.")
+
+    # Cerrar la conexión
+    cursor.close()
+    conn.close()
+
+# Llamar la función para insertar los pares en usdt_pairs
+insert_usdt_pairs_from_csv("processed_cryptos_data.csv")
