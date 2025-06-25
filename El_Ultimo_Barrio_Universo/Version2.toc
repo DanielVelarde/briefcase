@@ -1,0 +1,33 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {chapter}{1 – El Chico que Miraba las Estrellas}{5}{}%
+\contentsline {chapter}{2 – El Nacimiento de Pi}{11}{}%
+\contentsline {chapter}{3 – Sueños de Más Allá}{17}{}%
+\contentsline {chapter}{4 – Algo que nunca existió}{23}{}%
+\contentsline {chapter}{5 – Un misterio brillante}{29}{}%
+\contentsline {chapter}{6 – Lecciones del Hogar}{35}{}%
+\contentsline {chapter}{7 – ¿Una línea de comandos?}{39}{}%
+\contentsline {chapter}{8 – Susurros desde otro lado}{43}{}%
+\contentsline {chapter}{9 – La primera conversación}{49}{}%
+\contentsline {chapter}{10 – Algo ha cruzado}{55}{}%
+\contentsline {chapter}{11 – Planos y Problemas}{61}{}%
+\contentsline {chapter}{12 – Objetivo Cumplido con Resultados Inesperados}{67}{}%
+\contentsline {chapter}{13 – Tiempo Restante}{73}{}%
+\contentsline {chapter}{14 – Demasiado grande para mí}{79}{}%
+\contentsline {chapter}{15 – La Primera Prueba}{85}{}%
+\contentsline {chapter}{16 – El Eslabón Perdido}{93}{}%
+\contentsline {chapter}{17 – La Revelación de Oscar}{99}{}%
+\contentsline {chapter}{18 – La Verdad Incómoda}{105}{}%
+\contentsline {chapter}{19 – Apoyo Parental}{111}{}%
+\contentsline {chapter}{20 – El Mensaje entre Líneas}{117}{}%
+\contentsline {chapter}{21 – Más Allá de la Razón}{121}{}%
+\contentsline {chapter}{22 – Fragmentos de un Futuro Roto}{127}{}%
+\contentsline {chapter}{23 – Tocan a la Puerta}{133}{}%
+\contentsline {chapter}{24 – Selección y Sacrificio}{139}{}%
+\contentsline {chapter}{25 – La Respuesta del Vecindario}{145}{}%
+\contentsline {chapter}{26 – El Proyecto del Arca}{151}{}%
+\contentsline {chapter}{27 – La Calma antes de la Tormenta}{157}{}%
+\contentsline {chapter}{28 – 7 Días}{163}{}%
+\contentsline {chapter}{29 – Últimas Horas}{167}{}%
+\contentsline {chapter}{30 – El Comienzo del Fin}{171}{}%
+\contentsline {chapter}{31 – El Último Barrio del Universo}{179}{}%
+\contentsline {chapter}{Capítulo Final: La Nueva Sociedad}{183}{}%

@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.3.18)  18 MAR 2025 15:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.3.18)  18 MAR 2025 15:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**d:/Git/briefcase/Latex/CV-DVK-ESP-Crypto.tex
-(d:/Git/briefcase/Latex/CV-DVK-ESP-Crypto.tex
+**d:/Git/briefcase/Latex/CV-DVK-ESP-Cdasdas.tex
+(d:/Git/briefcase/Latex/CV-DVK-ESP-Cdasdas.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
 (C:\Users\danie\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -188,8 +188,8 @@ Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count276
 \l__pdf_internal_box=\box51
-) (CV-DVK-ESP-Crypto.aux)
-\openout1 = `CV-DVK-ESP-Crypto.aux'.
+) (CV-DVK-ESP-Cdasdas.aux)
+\openout1 = `CV-DVK-ESP-Cdasdas.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
 LaTeX Font Info:    ... okay on input line 12.
@@ -263,9 +263,8 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring OFF on input line 12.
-(CV-DVK-ESP-Crypto.out) (CV-DVK-ESP-Crypto.out)
 \@outlinefile=\write3
-\openout3 = `CV-DVK-ESP-Crypto.out'.
+\openout3 = `CV-DVK-ESP-Cdasdas.out'.
 
 <photocv.jpeg, id=3, 602.25pt x 602.25pt>
 File: photocv.jpeg Graphic file (type jpg)
@@ -276,8 +275,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 28.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 28.
-
-d:/Git/briefcase/Latex/CV-DVK-ESP-Crypto.tex:29: You can't use `macro parameter character #' in restricted horizontal mode.
+d:/Git/briefcase/Latex/CV-DVK-ESP-Cdasdas.tex:29: You can't use `macro parameter character #' in restricted horizontal mode.
 l.29 ...n: & Achumani, Urb. Estronguista, Calle3 #
                                                   30, La Paz - Bolivia \\
 Sorry, but I'm not programmed to handle this case;
@@ -292,46 +290,56 @@ Underfull \hbox (badness 6842) in paragraph at lines 45--46
 
 [1{C:/Users/danie/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
 
- <./photocv.jpeg>]
-Overfull \hbox (35.25734pt too wide) in paragraph at lines 114--115
+ <./photocv.jpeg>] [2]
+Overfull \hbox (35.25734pt too wide) in paragraph at lines 115--116
 [][]$\OT1/cmtt/m/n/10 https : / / www . coursera . org / account / accomplishments / specialization / W8KEPFZX9XGF$[] 
  []
 
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 126--127
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--128
 []\OT1/cmr/m/n/10 Operaciones de Im-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--139
+Underfull \hbox (badness 10000) in paragraph at lines 140--140
 []\OT1/cmr/bx/n/10 An^^Salisis T^^Secnico de
  []
 
 
-Underfull \hbox (badness 1783) in paragraph at lines 139--140
+Underfull \hbox (badness 1783) in paragraph at lines 140--141
 []\OT1/cmr/bx/n/10 Manejo de Crip-tos On
  []
 
-[3] [4] (CV-DVK-ESP-Crypto.aux)
+[3] [4] (CV-DVK-ESP-Cdasdas.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
-Package rerunfilecheck Info: File `CV-DVK-ESP-Crypto.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `CV-DVK-ESP-Cdasdas.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `CV-DVK-ESP-Cdasdas.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 9208 strings out of 474485
- 146162 string characters out of 5743734
+ 9204 strings out of 474485
+ 146021 string characters out of 5743734
  1942542 words of memory out of 5000000
  31397 multiletter control sequences out of 15000+600000
  559792 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,12n,79p,438b,607s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,12n,79p,458b,605s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\danie\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/danie/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on CV-DVK-ESP-Crypto.pdf (4 pages, 173368 bytes).
+Output written on CV-DVK-ESP-Cdasdas.pdf (4 pages, 174064 bytes).
 PDF statistics:
- 71 PDF objects out of 1000 (max. 8388607)
+ 72 PDF objects out of 1000 (max. 8388607)
  19 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
