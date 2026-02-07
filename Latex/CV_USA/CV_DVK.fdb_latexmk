@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1770313026.22838 "c:/Git/briefcase/Latex/CV_USA/CV_DVK.tex" "CV_DVK.pdf" "CV_DVK" 1770313026.73773 0
+["pdflatex"] 1770480571.57017 "c:/Git/briefcase/Latex/CV_USA/CV_DVK.tex" "CV_DVK.pdf" "CV_DVK" 1770480572.58434 0
   "C:/Users/danie/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1770311072 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/danie/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1095.pk" 1770311076 12668 889877ad230b102daa771230eebe1c63 ""
   "C:/Users/danie/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1770310512 13333486 788d9f9e2281b879ea98671873608f09 ""
@@ -63,10 +63,10 @@
   "C:/Users/danie/AppData/Local/Programs/MiKTeX/tex/latex/titlesec/titlesec.sty" 1736608268 48766 87a17a4ef312a39cd43896e34a679a56 ""
   "C:/Users/danie/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/danie/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
-  "CV_DVK.aux" 1770313026 942 36a6932943223adf70228a21a980fe8b "pdflatex"
-  "CV_DVK.out" 1770313026 815 cc48745015678323a802c8d384b4df1c "pdflatex"
-  "CV_DVK.tex" 1770313025 4877 dbd092029e45bcbb405c45115e0ff888 ""
-  "c:/Git/briefcase/Latex/CV_USA/CV_DVK.tex" 1770313025 4877 dbd092029e45bcbb405c45115e0ff888 ""
+  "CV_DVK.aux" 1770480572 849 28cf5bd0a2c268543739d393eb0c57eb "pdflatex"
+  "CV_DVK.out" 1770480572 796 59c3d5bf7ef31052cde18775690107ea "pdflatex"
+  "CV_DVK.tex" 1770480570 5268 89c43b989c6462b316ccd3130e974018 ""
+  "c:/Git/briefcase/Latex/CV_USA/CV_DVK.tex" 1770480570 5268 89c43b989c6462b316ccd3130e974018 ""
   (generated)
   "CV_DVK.aux"
   "CV_DVK.log"
